@@ -8,13 +8,14 @@ My personal dotfiles.
 * zsh-syntax-highlighting
 * nvm
 
-### i3-gaps
+### i3-gaps-rounded
 * feh
 * polybar
-* compton
+* compton-tryone
 * brightnessctl
 * flameshot
-* konsole
+* urxvt
+* xinput
 * dmenu
 
 ### Visual Studio Code
