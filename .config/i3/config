@@ -51,7 +51,7 @@ bindsym $mod+Shift+Delete exec sudo shutdown now
 bindsym Print exec --no-startup-id flameshot gui -d 200
 
 # file manager
-bindsym $mod+z exec urxvt -e mc
+bindsym $mod+z exec urxvt -e ranger
 
 # start a terminal
 bindsym $mod+Return exec urxvt
