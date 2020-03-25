@@ -51,10 +51,10 @@ bindsym $mod+Shift+Delete exec sudo shutdown now
 bindsym Print exec --no-startup-id flameshot gui -d 200
 
 # file manager
-bindsym $mod+z exec konsole -e mc
+bindsym $mod+z exec urxvt -e mc
 
 # start a terminal
-bindsym $mod+Return exec konsole
+bindsym $mod+Return exec urxvt
 
 # kill focused window
 bindsym $mod+q kill
@@ -211,4 +211,8 @@ exec --no-startup-id polybar kees
 
 # Enable Wi-Fi
 exec --no-startup-id wifi on
+
+# Touchpad improvements
+exec --no-startup-id xinput --set-prop "DELL097C:00 06CB:CCA8 Touchpad" "libinput Natural Scrolling Enabled" 1
+exec --no-startup-id xinput --set-prop "DELL097C:00 06CB:CCA8 Touchpad" "libinput Tapping Enabled" 1
 
