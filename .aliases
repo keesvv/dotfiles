@@ -1,0 +1,14 @@
+# Git aliases
+alias byebranch='git branch | grep -v "master" | xargs git branch -D '
+alias gs='git status'
+
+# File listing
+alias la='ls -A'
+alias l='ls -la'
+
+# Docker
+alias docker-clean='docker rmi -f $(docker images -f "dangling=true" -q)'
+
+# Bluetooth
+alias btconnect='bluetooth on && sleep 1 && bluetoothctl connect 7C:38:AD:24:09:C5'
+
