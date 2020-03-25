@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-scale 'wallpaper.jpg'
+feh --no-fehbg --bg-scale '.wallpaper.jpg'
