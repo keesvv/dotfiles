@@ -1,7 +1,7 @@
 # dotfiles
 My personal dotfiles.
 
-# Dependencies
+## Dependencies
 ### zsh
 * oh-my-zsh
 * zsh-autosuggestions
@@ -32,6 +32,6 @@ My personal dotfiles.
   - Todo Tree
   - Vetur
 
-# License
+## License
 Idk just do whatever you want with it.
 
