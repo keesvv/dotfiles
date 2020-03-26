@@ -1,3 +1,6 @@
+# General
+URxvt.perl-ext-common:  resize-font
+
 URxvt.foreground: #FFFFFF
 URxvt.scrollBar: false
 URxvt.cursorColor: magenta
@@ -5,4 +8,9 @@ URxvt.depth: 32
 URxvt.background: rgba:0000/0000/0000/9000
 URxvt.internalBorder: 15
 URxvt.font: xft:UbuntuMono Nerd Font Mono:size=12
+
+# Keybindings
+URxvt.keysym.C-0: resize-font:reset
+URxvt.keysym.C-equal: resize-font:bigger
+URxvt.keysym.C-minus: resize-font:smaller
 
