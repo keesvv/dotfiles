@@ -44,8 +44,8 @@ bindsym XF86MonBrightnessDown exec --no-startup-id sudo brightnessctl set 10%-
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-# shutdown
-bindsym $mod+Shift+Delete exec sudo shutdown now
+# reboot
+bindsym $mod+Shift+Delete exec sudo reboot
 
 # screenshot
 bindsym Print exec --no-startup-id flameshot gui -d 200
