@@ -1,0 +1,5 @@
+URxvt.background: [90]#000000
+URxvt.foreground: #FFFFFF
+URxvt.scrollBar: false
+URxvt.cursorColor: magenta
+
