@@ -1,5 +1,6 @@
 [colors]
-background = #222
+;background = #222
+background = #60000000
 background-alt = #444
 foreground = #dfdfdf
 foreground-alt = #555
@@ -8,11 +9,11 @@ secondary = #e60053
 alert = #bd2c40
 
 [bar/kees]
-width = 700px
+width = 500px
 height = 34
-radius = 8.0
-offset-x = 100%:-713
-offset-y = 0
+radius = 6.0
+offset-x = 100%:-513
+offset-y = 6
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -34,7 +35,7 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 
 modules-left = i3
-modules-right = pulseaudio battery temperature eth wlan date 
+modules-right = pulseaudio battery eth wlan date 
 
 tray-position = center
 tray-padding = 1
