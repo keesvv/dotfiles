@@ -1,5 +1,5 @@
 # dotfiles
-My personal dotfiles.
+💻 My personal dotfiles, with customizations for i3-gaps and VSCode.
 
 ## Dependencies
 ### zsh
