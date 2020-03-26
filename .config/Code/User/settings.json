@@ -1,6 +1,6 @@
 {
     "window.titleBarStyle": "custom",
-    "workbench.colorTheme": "1984 - Fancy",
+    "workbench.colorTheme": "1984",
     "workbench.iconTheme": "material-icon-theme",
     "window.zoomLevel": 1,
     "editor.fontSize": 13,
@@ -10,7 +10,7 @@
     "files.autoSave": "onFocusChange",
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
-    "terminal.integrated.fontFamily": "Ubuntu Mono derivative Powerline",
+    "terminal.integrated.fontFamily": "UbuntuMono Nerd Font Mono",
     "typescript.tsserver.log": "verbose",
     "editor.tabSize": 2,
     "git.enableSmartCommit": true,
