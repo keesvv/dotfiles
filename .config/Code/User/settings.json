@@ -1,0 +1,21 @@
+{
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "1984 - Fancy",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 1,
+    "editor.fontSize": 13,
+    "git.autofetch": true,
+    "explorer.confirmDelete": false,
+    "git.confirmSync": false,
+    "files.autoSave": "onFocusChange",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "terminal.integrated.fontFamily": "Ubuntu Mono derivative Powerline",
+    "typescript.tsserver.log": "verbose",
+    "editor.tabSize": 2,
+    "git.enableSmartCommit": true,
+    "explorer.confirmDragAndDrop": false,
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "todo-tree.tree.showScanModeButton": false,
+    "todo-tree.highlights.enabled": true
+}
