@@ -10,5 +10,5 @@ alias l='ls -la'
 alias docker-clean='docker rmi -f $(docker images -f "dangling=true" -q)'
 
 # Bluetooth
-alias btconnect='bluetooth on && sleep 1 && bluetoothctl connect 7C:38:AD:24:09:C5'
+alias btconnect='bluetoothctl power on && sleep 1 && bluetoothctl connect 7C:38:AD:24:09:C5'
 
