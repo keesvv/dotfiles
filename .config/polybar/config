@@ -132,7 +132,7 @@ format-charging-underline = #ffb52a
 format-discharging = <ramp-capacity>
 format-discharging-underline = ${self.format-charging-underline}
 
-format-full-prefix-foreground = ${colors.foreground-alt}
+format-full = <ramp-capacity>
 format-full-underline = ${self.format-charging-underline}
 
 ramp-capacity-0 = 
