@@ -130,7 +130,7 @@ battery = BAT0
 adapter = AC
 full-at = 98
 
-format-charging = <ramp-capacity>
+format-charging = <ramp-capacity>  
 format-charging-underline = #ffb52a
 
 format-discharging = <ramp-capacity>
@@ -141,10 +141,14 @@ format-full-underline = ${self.format-charging-underline}
 
 ramp-capacity-0 = 
 ramp-capacity-1 = 
-ramp-capacity-2 = 
-ramp-capacity-3 = 
-ramp-capacity-4 = 
-ramp-capacity-5 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+ramp-capacity-5 = 
+ramp-capacity-6 = 
+ramp-capacity-7 = 
+ramp-capacity-8 = 
+ramp-capacity-9 = 
 
 ramp-capacity-0-foreground = ${colors.alert}
 ramp-capacity-1-foreground = ${colors.alert}
