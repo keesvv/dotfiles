@@ -1,6 +1,10 @@
 # dotfiles
 💻 My personal dotfiles, with customizations for i3-gaps and VSCode.
 
+![Screenshot](./screenshot.png)
+
+> Looks great, doesn't it?
+
 ## Dependencies
 ### zsh
 * oh-my-zsh
