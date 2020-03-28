@@ -12,7 +12,7 @@
 * zsh-syntax-highlighting
 * nvm
 
-### i3-gaps-rounded
+### i3-gaps
 * feh
 * polybar
 * compton-tryone
@@ -21,6 +21,16 @@
 * urxvt
 * xinput
 * dmenu
+* tmux
+* ranger
+
+### polybar
+* ttf-google-sans
+* ttf-font-awesome-4
+
+### urxvt
+* Extensions:
+  - resize-font
 
 ### Visual Studio Code
 * Theme: **1984**
