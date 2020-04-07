@@ -23,6 +23,6 @@ map <silent><S-Down> :m+<CR>
 
 "Fix slow ESC
 set ttimeout
-set ttimeoutlen=100
-set timeoutlen=3000
+set ttimeoutlen=0
+set timeoutlen=1000
 
