@@ -53,6 +53,9 @@ bindsym Print exec --no-startup-id flameshot gui -d 200
 # file manager
 bindsym $mod+z exec urxvt -e ranger
 
+# volume control interface
+bindsym $mod+Shift+v exec urxvt -e alsamixer
+
 # Rofi window switcher
 bindsym $mod+Tab exec --no-startup-id rofi -show
 
