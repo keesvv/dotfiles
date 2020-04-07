@@ -1,6 +1,10 @@
 # dotfiles
 💻 My personal dotfiles, with customizations for i3-gaps and VSCode.
 
+![Screenshot](./screenshot.png)
+
+> Looks great, doesn't it?
+
 ## Dependencies
 ### zsh
 * oh-my-zsh
@@ -8,7 +12,7 @@
 * zsh-syntax-highlighting
 * nvm
 
-### i3-gaps-rounded
+### i3-gaps
 * feh
 * polybar
 * compton-tryone
@@ -17,6 +21,16 @@
 * urxvt
 * xinput
 * dmenu
+* tmux
+* ranger
+
+### polybar
+* ttf-google-sans
+* ttf-font-awesome-4
+
+### urxvt
+* Extensions:
+  - resize-font
 
 ### Visual Studio Code
 * Theme: **1984**
