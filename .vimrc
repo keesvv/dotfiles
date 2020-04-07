@@ -21,3 +21,8 @@ map <space> /
 map <silent><S-Up> :m-2<CR>
 map <silent><S-Down> :m+<CR>
 
+"Fix slow ESC
+set ttimeout
+set ttimeoutlen=100
+set timeoutlen=3000
+
