@@ -6,6 +6,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'jiangmiao/auto-pairs'
+Plug 'airblade/vim-gitgutter'
+Plug 'preservim/nerdtree'
 
 "COC plugins
 Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
@@ -37,6 +39,7 @@ highlight LineNr ctermfg=grey
 map <space> /
 map <silent><S-Up> :m-2<CR>
 map <silent><S-Down> :m+<CR>
+map <silent><C-B> :NERDTree<CR>
 
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
