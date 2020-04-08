@@ -1,4 +1,4 @@
-"Call the plugin manager
+"Begin plugins
 call plug#begin('~/.vim/plugged')
 
 "Vim plugins
@@ -13,20 +13,21 @@ Plug 'preservim/nerdtree'
 Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-python', {'do': 'yarn install --frozen-lockfile'}
 
+"End plugins
 call plug#end()
 
 "Options & settings
 let g:airline_powerline_fonts = 1
 
-set shortmess=I  "Disable splash screen
-set ignorecase   "Ignore case in search
-set hlsearch     "Higlight search
-set expandtab    "Tabs => spaces
-set smarttab     "Smart tab
-set shiftwidth=4 "Shift width
-set tabstop=4    "Tab width
-set ai           "Auto indent
-set number       "Line numbers
+set shortmess=I    "Disable splash screen
+set ignorecase     "Ignore case in search
+set hlsearch       "Higlight search
+set expandtab      "Tabs => spaces
+set smarttab       "Smart tab
+set shiftwidth=4   "Shift width
+set tabstop=4      "Tab width
+set ai             "Auto indent
+set relativenumber "Relative line numbers
 
 "Syntax highlighting
 filetype plugin on
