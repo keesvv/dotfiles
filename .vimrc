@@ -29,6 +29,10 @@ map <space> /
 map <silent><S-Up> :m-2<CR>
 map <silent><S-Down> :m+<CR>
 
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+
 "Fix slow ESC
 set ttimeout
 set ttimeoutlen=0
