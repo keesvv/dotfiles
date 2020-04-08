@@ -1,3 +1,11 @@
+"Call the plugin manager
+call plug#begin('~/.vim/plugged')
+
+"Plugins
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+call plug#end()
+
 "Options & settings
 set shortmess=I  "Disable splash screen
 set ignorecase   "Ignore case in search
