@@ -1,11 +1,15 @@
 "Call the plugin manager
 call plug#begin('~/.vim/plugged')
 
-"Plugins
+"Vim plugins
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'jiangmiao/auto-pairs'
+
+"COC plugins
+Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-python', {'do': 'yarn install --frozen-lockfile'}
 
 call plug#end()
 
