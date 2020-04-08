@@ -1,0 +1,7 @@
+{
+    "suggest.autoTrigger": "trigger",
+    "suggest.triggerAfterInsertEnter": true,
+    "suggest.noselect": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true
+}
