@@ -3,10 +3,14 @@ call plug#begin('~/.vim/plugged')
 
 "Plugins
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
 "Options & settings
+let g:airline_powerline_fonts = 1
+
 set shortmess=I  "Disable splash screen
 set ignorecase   "Ignore case in search
 set hlsearch     "Higlight search
