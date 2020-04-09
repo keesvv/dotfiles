@@ -28,6 +28,7 @@ set shiftwidth=4   "Shift width
 set tabstop=4      "Tab width
 set ai             "Auto indent
 set relativenumber "Relative line numbers
+set noshowmode     "No default statusline
 
 "Syntax highlighting
 filetype plugin on
