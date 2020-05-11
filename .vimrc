@@ -8,6 +8,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'jiangmiao/auto-pairs'
 Plug 'airblade/vim-gitgutter'
 Plug 'preservim/nerdtree'
+Plug 'scrooloose/nerdcommenter'
 
 "COC plugins
 Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
@@ -28,6 +29,7 @@ set shiftwidth=4   "Shift width
 set tabstop=4      "Tab width
 set ai             "Auto indent
 set relativenumber "Relative line numbers
+set noshowmode     "No default statusline
 
 "Syntax highlighting
 filetype plugin on
