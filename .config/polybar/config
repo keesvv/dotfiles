@@ -33,6 +33,9 @@ alert = #bd2c40
 volume-min = #a3be8c
 volume-med = #ebcb8b
 volume-max = #bf616a
+
+arrow-1 = #696969
+arrow-2 = #424242
 ; =======================
 
 ; Gotham theme ==========
@@ -330,8 +333,8 @@ modules-right = arrow1 networkspeedup networkspeeddown arrow2 memory2 arrow3 cpu
 tray-detached = false
 tray-offset-x = 0
 tray-offset-y = 0
-tray-position = right
-tray-padding = 2
+tray-position = left
+tray-padding = 5
 tray-maxsize = 20
 tray-scale = 1.0
 tray-background = ${colors.background}
@@ -670,28 +673,25 @@ format-background = ${colors.background}
 
 
 [module/arrow1]
-; grey to Blue
 type = custom/text
 content = "%{T2} %{T-}"
 content-font = 2
-content-foreground = #A77AC4
+content-foreground = ${colors.arrow-1}
 content-background = #292d3e
 
 [module/arrow2]
-; grey to Blue
 type = custom/text
 content = "%{T2} %{T-}"
 content-font = 2
-content-foreground = #7197E7
-content-background = #A77AC4
+content-foreground = ${colors.arrow-2}
+content-background = ${colors.arrow-1}
 
 [module/arrow3]
-; grey to Blue
 type = custom/text
 content = "%{T2} %{T-}"
 content-font = 2
-content-foreground = #A77AC4
-content-background = #7197E7
+content-foreground = ${colors.arrow-1}
+content-background = ${colors.arrow-2}
 
 ################################################################################
 ###############################################################################
@@ -705,7 +705,7 @@ exec = ~/.config/polybar/scripts/check-all-updates.sh
 interval = 1000
 label = %output%
 format-foreground = #fefefe
-format-background = #A77AC4
+format-background = ${colors.arrow-1}
 format-prefix = "   "
 format-prefix-foreground = #fefefe
 
@@ -886,7 +886,7 @@ type = internal/cpu
 ; Default: 1
 interval = 1
 format-foreground = #fefefe
-format-background = #A77AC4
+format-background = ${colors.arrow-1}
 format-prefix = " "
 format-prefix-foreground = #fefefe
 
@@ -915,14 +915,14 @@ type = internal/date
 interval = 5
 ; See "http://en.cppreference.com/w/cpp/io/manip/put_time" for details on how to format the date string
 ; NOTE: if you want to use syntax tags here you need to use %%{...}
-date = " %a %b %d, %Y"
-date-alt = " %a %b %d, %Y"
-time = %l:%M%p
-time-alt = %l:%M%p
-format-prefix = " "
+date = " %F"
+;date-alt = " %a %b %d, %Y"
+time = %R
+;time-alt = %l:%M%p
+format-prefix = "  "
 format-prefix-foreground = #fefefe
 format-foreground = #fefefe
-format-background = #7197E7
+format-background = ${colors.arrow-2}
 label = "%date% %time% "
 
 #################################################################
@@ -1122,7 +1122,7 @@ format = <label>
 format-prefix = " "
 format-prefix-foreground = #fefefe
 format-foreground = #fefefe
-format-background = #7197E7
+format-background = ${colors.arrow-2}
 
 ################################################################################
 
@@ -1231,7 +1231,7 @@ click-left = ~/.config/polybar/scripts/pavolume.sh --togmute
 scroll-up = ~/.config/polybar/scripts/pavolume.sh --up
 scroll-down = ~/.config/polybar/scripts/pavolume.sh --down
 format-foreground = #fefefe
-format-background = #7197E7
+format-background = ${colors.arrow-2}
 
 
 
