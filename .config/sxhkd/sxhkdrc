@@ -1,0 +1,64 @@
+# Reload config
+super + Home
+    sh ~/.dotfiles/.config/bspwm/bspwmrc
+
+# Run an application
+super + a
+    rofi -show run
+
+# Open Terminal
+super + Return
+    urxvt
+
+# Switch windows
+alt + Tab
+    rofi -show window
+
+# Close window
+super + q
+    bspc node --close
+
+# Expand window
+super + alt + {h,j,k,l}
+    bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+# Contract window
+#super + alt + shift + {h,j,k,l}
+#    bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+
+# Shutdown
+ctrl + alt + Delete
+    sudo shutdown now
+
+# Raise volume
+XF86AudioRaiseVolume
+    amixer -q set Master 2%+ unmute
+
+# Lower volume
+XF86AudioLowerVolume
+    amixer -q set Master 2%- unmute
+
+# Mute audio
+XF86AudioMute
+    amixer -q set Master toggle
+
+# Lock screen
+super + l
+    dm-tool lock
+
+# Show task manager
+ctrl + Escape
+    $TERMINAL -e gotop
+
+# Fullscreen
+super + f
+    bspc node -t \~fullscreen
+
+# swap the current node and the biggest node
+super + g
+	bspc node -s biggest
+
+# focus the next/previous desktop in the current monitor
+super + bracket{left,right}
+	bspc desktop -f {prev,next}.local
+
