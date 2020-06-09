@@ -331,10 +331,10 @@ modules-left = bspwm xwindow
 modules-center = 
 modules-right = arrow1 arrow2 memory2 arrow3 cpu2 arrow2 pavolume arrow3 arch-aur-updates arrow2 date
 
-tray-detached = false
-tray-offset-x = 0
+tray-detached = true
+tray-offset-x = -470
 tray-offset-y = 0
-tray-position = left
+tray-position = right
 tray-padding = 5
 tray-maxsize = 20
 tray-scale = 1.0
