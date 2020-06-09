@@ -5,6 +5,9 @@ alias gs='git status'
 alias la='ls -A'
 alias l='ls -la'
 
+# Verbose copying
+alias cp='cp -iv'
+
 # Bluetooth
 alias btconnect='bluetoothctl power on && sleep 1 && bluetoothctl connect 7C:38:AD:24:09:C5'
 
