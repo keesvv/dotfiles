@@ -62,3 +62,11 @@ super + g
 super + bracket{left,right}
 	bspc desktop -f {prev,next}.local
 
+# Increase brightness
+XF86MonBrightnessUp
+    brightnessctl set +10%
+
+# Decrease brightness
+XF86MonBrightnessDown
+    brightnessctl set 10%-
+
