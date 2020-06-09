@@ -29,6 +29,7 @@ format-offset =
 ; Nord theme ============
 background = #292d3e
 foreground = #c0c5ce
+foreground-dim = #787b80
 alert = #bd2c40
 volume-min = #a3be8c
 volume-med = #ebcb8b
@@ -632,7 +633,7 @@ label-urgent = %icon%
 label-urgent-padding = 1
 
 label-empty = %icon%
-label-empty-foreground = ${colors.foreground}
+label-empty-foreground = ${colors.foreground-dim}
 label-empty-padding = 1
 label-empty-background = ${colors.background}
 label-monocle = "  "
