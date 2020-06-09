@@ -283,7 +283,7 @@ tray-background = ${colors.background}
 ################################################################################
 
 [bar/mainbar-bspwm]
-monitor = HDMI-0
+monitor = ${env:MONITOR}
 width = 100%
 height = 20
 ;offset-x = 1%
