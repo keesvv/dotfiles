@@ -1,8 +1,8 @@
 #!/bin/sh
-source ./vars
+source ~/.dotfiles/.config/bspwm/vars
 
 if [ $(cat /etc/hostname) = "laptop"  ]; then
-    source ./vars-laptop
+    source ~/.dotfiles/.config/bspwm/vars-laptop
 fi
 
 # Set wallpaper
