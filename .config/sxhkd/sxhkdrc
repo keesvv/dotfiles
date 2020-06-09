@@ -70,3 +70,7 @@ XF86MonBrightnessUp
 XF86MonBrightnessDown
     brightnessctl set 10%-
 
+# End session
+super + End
+    bspc quit
+
