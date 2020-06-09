@@ -1,5 +1,5 @@
 # General
-URxvt.perl-ext-common:  resize-font
+URxvt.perl-ext-common: default,resize-font
 
 URxvt.foreground: #FFFFFF
 URxvt.scrollBar: false
@@ -13,4 +13,13 @@ URxvt.font: xft:UbuntuMono Nerd Font Mono:size=12
 URxvt.keysym.C-0: resize-font:reset
 URxvt.keysym.C-equal: resize-font:bigger
 URxvt.keysym.C-minus: resize-font:smaller
+
+URxvt.keysym.Control-Shift-V: eval:paste_clipboard
+URxvt.keysym.Control-Shift-C: eval:selection_to_clipboard
+
+URxvt.keysym.Control-Meta-C: builtin-string:
+URxvt.keysym.Control-Meta-V: builtin-string:
+
+URxvt.iso14755: false
+URxvt.iso14755_52: false
 
