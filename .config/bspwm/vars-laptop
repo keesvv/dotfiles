@@ -1,0 +1,5 @@
+#!/bin/sh
+export MONITOR="eDP-1"
+export TOUCHPAD_ACCEL=-0.1
+export TOUCHPAD_DEVID=13
+

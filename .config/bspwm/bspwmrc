@@ -1,11 +1,11 @@
 #!/bin/sh
-export TERMINAL="urxvt"
+source ./vars
 
-KEYBOARD_DELAY=200
-KEYBOARD_RATE=25
-MOUSE_ACCEL=-0.75
-MOUSE_DEVID=9
+if [ $(cat /etc/hostname) = "laptop"  ]; then
+    source ./vars-laptop
+fi
 
+# Set wallpaper
 feh --bg-scale --no-fehbg ~/.dotfiles/.wallpaper.jpg
 
 # Run background tasks
@@ -14,15 +14,21 @@ killall -q picom; sleep 0.3s; picom &
 killall -q polybar; polybar mainbar-bspwm &
 killall -q ckb-next; ckb-next -b &
 
-# Mouse speed
+# Mouse and touchpad options
 xinput --set-prop $MOUSE_DEVID 'libinput Accel Speed' $MOUSE_ACCEL
+
+if [ ! -z "$TOUCHPAD_DEVID"  ]; then
+    xinput --set-prop $TOUCHPAD_DEVID 'libinput Accel Speed' $TOUCHPAD_ACCEL
+    xinput --set-prop $TOUCHPAD_DEVID 'libinput Tapping Enabled' 1
+    xinput --set-prop $TOUCHPAD_DEVID 'libinput Natural Scrolling Enabled' 1
+fi
 
 # Keyboard speed
 xset r rate $KEYBOARD_DELAY $KEYBOARD_RATE
 
 # bspwm config
 ## Monitors
-bspc monitor HDMI-0 -d 1 2 3 4 5
+bspc monitor $MONITOR -d 1 2 3 4 5
 
 ## Other
 bspc config focus_follows_pointer true

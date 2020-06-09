@@ -1,0 +1,8 @@
+#!/bin/sh
+export TERMINAL="urxvt"
+export MONITOR="HDMI-0"
+export KEYBOARD_DELAY=200
+export KEYBOARD_RATE=25
+export MOUSE_DEVID=12
+export MOUSE_ACCEL=-0.75
+
