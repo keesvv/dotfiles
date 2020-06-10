@@ -28,7 +28,7 @@ super + alt + shift + {h,j,k,l}
 
 # Shutdown
 ctrl + alt + Delete
-    sudo shutdown now
+    sudo reboot
 
 # Raise volume
 XF86AudioRaiseVolume
