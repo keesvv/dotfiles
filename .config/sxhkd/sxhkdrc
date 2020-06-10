@@ -78,3 +78,7 @@ XF86MonBrightnessDown
 super + End
     bspc quit
 
+# Open file manager
+super + z
+    $TERMINAL -e ranger
+
