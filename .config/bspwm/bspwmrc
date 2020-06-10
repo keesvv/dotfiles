@@ -13,6 +13,7 @@ killall -q sxhkd; sxhkd &
 killall -q picom; sleep 0.3s; picom &
 killall -q polybar; polybar mainbar-bspwm &
 killall -q ckb-next; ckb-next -b &
+killall -q nextcloud; nextcloud &
 
 # Mouse and touchpad options
 xinput --set-prop $MOUSE_DEVID 'libinput Accel Speed' $MOUSE_ACCEL
