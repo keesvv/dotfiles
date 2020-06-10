@@ -82,3 +82,7 @@ super + End
 super + z
     $TERMINAL -e ranger
 
+# Switch keyboard layout
+super + space
+    sh ~/.dotfiles/scripts/kblayout.sh
+
