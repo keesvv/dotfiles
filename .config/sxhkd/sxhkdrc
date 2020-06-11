@@ -60,7 +60,11 @@ super + g
 
 # focus the next/previous desktop in the current monitor
 super + bracket{left,right}
-	bspc desktop -f {prev,next}.local
+	bspc desktop -f {prev,next}
+
+# Move window to other desktop
+super + shift + bracket{left,right}
+    bspc node -d {prev,next} -f
 
 # switch to specific desktop
 super + {_,shift + }{1-9,0}
