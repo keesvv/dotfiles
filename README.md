@@ -1,5 +1,5 @@
 # dotfiles
-💻 My personal dotfiles, with customizations for i3-gaps and VSCode.
+💻 My personal dotfiles.
 
 ![Screenshot](./screenshot.png)
 
@@ -12,20 +12,22 @@
 * zsh-syntax-highlighting
 * nvm
 
-### i3-gaps
+### bspwm
 * feh
 * polybar
-* compton-tryone
+* picom
 * brightnessctl
 * flameshot
 * urxvt
 * xinput
-* dmenu
+* rofi
 * tmux
 * ranger
+* dunst
+* sxhkd
 
 ### polybar
-* ttf-google-sans
+* nerd-fonts-ubuntu-mono
 * ttf-font-awesome-4
 
 ### urxvt
