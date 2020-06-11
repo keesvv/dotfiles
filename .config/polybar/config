@@ -774,7 +774,7 @@ bar-empty = ─
 type = internal/battery
 battery = BAT0
 adapter = AC0
-full-at = 100
+full-at = 93
 
 format-charging = <animation-charging> <label-charging>
 label-charging = %percentage%%
@@ -790,7 +790,7 @@ format-discharging-foreground = ${colors.foreground}
 format-discharging-background = ${colors.background}
 format-discharging-padding = 1
 
-format-full-prefix = " "
+format-full-prefix = "  "
 format-full-prefix-foreground = #a3c725
 format-full-underline = #a3c725
 format-full-foreground = ${colors.foreground}
