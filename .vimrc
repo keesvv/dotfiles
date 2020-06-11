@@ -34,6 +34,7 @@ set tabstop=4      "Tab width
 set ai             "Auto indent
 set relativenumber "Relative line numbers
 set noshowmode     "No default statusline
+set nowrap         "No line wrapping
 set bg=dark        "Dark theme
 
 "Syntax highlighting
