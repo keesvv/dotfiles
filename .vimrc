@@ -9,6 +9,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'airblade/vim-gitgutter'
 Plug 'preservim/nerdtree'
 Plug 'scrooloose/nerdcommenter'
+Plug 'morhetz/gruvbox'
 
 "COC plugins
 Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
@@ -19,6 +20,7 @@ call plug#end()
 
 "Options & settings
 let g:airline_powerline_fonts = 1
+let g:gruvbox_italic = 1
 
 set shortmess=I    "Disable splash screen
 set ignorecase     "Ignore case in search
@@ -30,6 +32,7 @@ set tabstop=4      "Tab width
 set ai             "Auto indent
 set relativenumber "Relative line numbers
 set noshowmode     "No default statusline
+set bg=dark        "Dark theme
 
 "Syntax highlighting
 filetype plugin on
@@ -37,6 +40,7 @@ syntax on
 
 "Custom color schemes
 highlight LineNr ctermfg=grey
+colorscheme gruvbox
 
 "Mappings
 map <space> /
