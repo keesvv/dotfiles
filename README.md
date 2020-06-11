@@ -25,6 +25,7 @@
 * ranger
 * dunst
 * sxhkd
+* playerctl
 
 ### polybar
 * nerd-fonts-ubuntu-mono
