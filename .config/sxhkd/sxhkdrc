@@ -94,3 +94,7 @@ super + space
 Print
     flameshot gui
 
+# VPN
+super + v
+    $TERMINAL -e sudo protonvpn connect
+
