@@ -90,3 +90,7 @@ super + z
 super + space
     sh ~/.dotfiles/scripts/kblayout.sh
 
+# Screenshot
+Print
+    flameshot gui
+
