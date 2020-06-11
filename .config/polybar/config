@@ -329,10 +329,10 @@ font-4 = "Font Awesome 5 Brands:pixelsize=8;1"
 
 modules-left = battery bspwm xwindow
 modules-center = 
-modules-right = arrow1 arrow2 memory2 arrow3 cpu2 arrow2 pavolume arrow3 arch-aur-updates arrow2 date
+modules-right = arrow1 vpn arrow2 memory2 arrow3 cpu2 arrow2 pavolume arrow3 arch-aur-updates arrow2 date
 
 tray-detached = true
-tray-offset-x = -460
+tray-offset-x = -490
 tray-offset-y = 0
 tray-position = right
 tray-padding = 5
@@ -1104,6 +1104,12 @@ format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
 ################################################################################
+
+[module/vpn]
+type = custom/script
+exec = "sh ~/.dotfiles/scripts/vpn_status.sh"
+format-background = ${colors.arrow-1}
+interval = 1
 
 [module/memory2]
 ;https://github.com/jaagr/polybar/wiki/Module:-memory
