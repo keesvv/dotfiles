@@ -785,7 +785,7 @@ format-charging-padding = 1
 
 format-discharging = <ramp-capacity> <label-discharging>
 label-discharging = %percentage%%
-format-discharging-underline = #c7ae25
+format-discharging-underline = ${colors.foreground}
 format-discharging-foreground = ${colors.foreground}
 format-discharging-background = ${colors.background}
 format-discharging-padding = 1
@@ -798,11 +798,19 @@ format-full-background = ${colors.background}
 format-full-padding = 1
 
 ramp-capacity-0 = " "
-ramp-capacity-1 = " "
-ramp-capacity-2 = " "
-ramp-capacity-3 = " "
-ramp-capacity-4 = " "
-ramp-capacity-foreground = #c7ae25
+ramp-capacity-1 = " "
+ramp-capacity-2 = " "
+ramp-capacity-3 = " "
+ramp-capacity-4 = " "
+ramp-capacity-5 = " "
+ramp-capacity-6 = " "
+ramp-capacity-7 = " "
+ramp-capacity-8 = " "
+ramp-capacity-9 = " "
+ramp-capacity-0-foreground = ${colors.alert}
+ramp-capacity-1-foreground = ${colors.alert}
+ramp-capacity-2-foreground = ${colors.alert}
+ramp-capacity-foreground = ${colors.foreground}
 
 animation-charging-0 = " "
 animation-charging-1 = " "
