@@ -23,6 +23,7 @@ call plug#end()
 "Options & settings
 let g:airline_powerline_fonts = 1
 let g:gruvbox_italic = 1
+let mapleader = " "
 
 set shortmess=I    "Disable splash screen
 set ignorecase     "Ignore case in search
@@ -56,6 +57,9 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
 nnoremap <C-p> :GFiles<CR>
+
+nmap <leader>gd <Plug>(coc-definition)
+nmap <leader>gr <Plug>(coc-references)
 
 "Fix slow ESC
 set ttimeout
