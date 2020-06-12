@@ -110,3 +110,10 @@ XF86AudioPlay
 super + n
     $TERMINAL -e nmtui
 
+# Preselect direction for new window
+super + ctrl + {h,j,k,l}
+	bspc node -p {west,south,north,east}
+
+# Cancel the preselection
+super + ctrl + space
+	bspc node -p cancel
