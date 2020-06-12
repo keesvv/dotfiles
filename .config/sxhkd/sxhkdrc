@@ -106,3 +106,7 @@ super + shift + v
 XF86AudioPlay
     playerctl play-pause
 
+# Network settings
+super + n
+    $TERMINAL -e nmtui
+

@@ -328,7 +328,7 @@ font-3 = "Font Awesome 5 Free:style=Solid:pixelsize=8;1"
 font-4 = "Font Awesome 5 Brands:pixelsize=8;1"
 
 modules-left = battery bspwm xwindow
-modules-center = 
+modules-center = mpris 
 modules-right = arrow1 vpn arrow2 memory2 arrow3 cpu2 arrow2 pavolume arrow3 arch-aur-updates arrow2 date
 
 tray-detached = true
@@ -785,7 +785,7 @@ format-charging-padding = 1
 
 format-discharging = <ramp-capacity> <label-discharging>
 label-discharging = %percentage%%
-format-discharging-underline = #c7ae25
+format-discharging-underline = ${colors.foreground}
 format-discharging-foreground = ${colors.foreground}
 format-discharging-background = ${colors.background}
 format-discharging-padding = 1
@@ -798,11 +798,19 @@ format-full-background = ${colors.background}
 format-full-padding = 1
 
 ramp-capacity-0 = " "
-ramp-capacity-1 = " "
-ramp-capacity-2 = " "
-ramp-capacity-3 = " "
-ramp-capacity-4 = " "
-ramp-capacity-foreground = #c7ae25
+ramp-capacity-1 = " "
+ramp-capacity-2 = " "
+ramp-capacity-3 = " "
+ramp-capacity-4 = " "
+ramp-capacity-5 = " "
+ramp-capacity-6 = " "
+ramp-capacity-7 = " "
+ramp-capacity-8 = " "
+ramp-capacity-9 = " "
+ramp-capacity-0-foreground = ${colors.alert}
+ramp-capacity-1-foreground = ${colors.alert}
+ramp-capacity-2-foreground = ${colors.alert}
+ramp-capacity-foreground = ${colors.foreground}
 
 animation-charging-0 = " "
 animation-charging-1 = " "
@@ -1109,6 +1117,13 @@ format-background = ${colors.background}
 type = custom/script
 exec = "sh ~/.dotfiles/scripts/vpn_status.sh"
 format-background = ${colors.arrow-1}
+interval = 1
+
+[module/mpris]
+type = custom/script
+exec = "sh ~/.dotfiles/scripts/mpris.sh"
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
 interval = 1
 
 [module/memory2]
