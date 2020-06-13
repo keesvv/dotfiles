@@ -809,7 +809,6 @@ ramp-capacity-8 = " "
 ramp-capacity-9 = " "
 ramp-capacity-0-foreground = ${colors.alert}
 ramp-capacity-1-foreground = ${colors.alert}
-ramp-capacity-2-foreground = ${colors.alert}
 ramp-capacity-foreground = ${colors.foreground}
 
 animation-charging-0 = " "
