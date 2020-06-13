@@ -798,7 +798,7 @@ format-full-background = ${colors.background}
 format-full-padding = 1
 
 ramp-capacity-0 = " "
-ramp-capacity-1 = " "
+ramp-capacity-1 = " "
 ramp-capacity-2 = " "
 ramp-capacity-3 = " "
 ramp-capacity-4 = " "
