@@ -11,6 +11,7 @@ Plug 'preservim/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'morhetz/gruvbox'
 Plug 'junegunn/fzf.vim'
+Plug 'posva/vim-vue'
 
 "COC plugins
 Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
