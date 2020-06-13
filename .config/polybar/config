@@ -700,7 +700,7 @@ content-background = ${colors.arrow-2}
 
 [module/arch-aur-updates]
 type = custom/script
-exec = ~/.config/polybar/scripts/check-all-updates.sh
+exec = ~/.dotfiles/scripts/updates.sh
 interval = 1000
 label = %output%
 format-foreground = #fefefe
@@ -1247,11 +1247,11 @@ format-underline = #FFBB00
 type = custom/script
 tail = true
 label = " %output%"
-exec = ~/.config/polybar/scripts/pavolume.sh --listen
+exec = ~/.dotfiles/scripts/pavolume.sh --listen
 click-right = exec pavucontrol
-click-left = ~/.config/polybar/scripts/pavolume.sh --togmute
-scroll-up = ~/.config/polybar/scripts/pavolume.sh --up
-scroll-down = ~/.config/polybar/scripts/pavolume.sh --down
+click-left = ~/.dotfiles/scripts/pavolume.sh --togmute
+scroll-up = ~/.dotfiles/scripts/pavolume.sh --up
+scroll-down = ~/.dotfiles/scripts/pavolume.sh --down
 format-foreground = #fefefe
 format-background = ${colors.arrow-2}
 
