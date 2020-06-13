@@ -774,7 +774,7 @@ bar-empty = ─
 type = internal/battery
 battery = BAT0
 adapter = AC0
-full-at = 93
+full-at = 100
 
 format-charging = <animation-charging> <label-charging>
 label-charging = %percentage%%
