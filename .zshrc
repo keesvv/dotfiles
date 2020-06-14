@@ -1,21 +1,22 @@
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
+# powerlevel10k instant prompt
+source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 
+# global variables
 export EDITOR='vim'
-export ZSH="/home/kees/.oh-my-zsh"
 export SSH_KEY_PATH="~/.ssh/id_rsa"
 
+# local variables
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
-
 AUTO_LS_COMMANDS=(ls)
 
+# scripts & helpers
 source ~/.zplug/init.zsh
 source ~/.dotfiles/scripts/aliases.sh
 source ~/.dotfiles/scripts/path.sh
 
+# plugins
 zplug "plugins/colored-man-pages", from:oh-my-zsh
 zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zsh-users/zsh-autosuggestions"
@@ -29,12 +30,15 @@ fi
 
 zplug load
 
+# keybindings
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
+# zstyle configs
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 zstyle ':completion:*' menu select
 
+# other autoload stuff
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
