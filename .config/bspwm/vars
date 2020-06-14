@@ -1,5 +1,6 @@
 #!/bin/sh
 export TERMINAL="urxvt"
+export BROWSER="google-chrome-stable"
 export MONITOR="HDMI-0"
 export KEYBOARD_DELAY=200
 export KEYBOARD_RATE=25

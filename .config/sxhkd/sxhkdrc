@@ -121,3 +121,7 @@ super + ctrl + space
 # Home directory search
 super + s
     $TERMINAL -e ~/.dotfiles/scripts/search_home.sh
+
+# Open browser
+super + b
+    $BROWSER
