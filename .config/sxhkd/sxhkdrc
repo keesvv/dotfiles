@@ -117,3 +117,7 @@ super + ctrl + {h,j,k,l}
 # Cancel the preselection
 super + ctrl + space
 	bspc node -p cancel
+
+# Home directory search
+super + s
+    $TERMINAL -e ~/.dotfiles/scripts/search_home.sh
