@@ -8,6 +8,7 @@ alias gd='git diff'
 alias gco='git checkout'
 
 # File listing
+alias ls='ls --color=auto'
 alias la='ls -A'
 alias l='ls -la'
 
