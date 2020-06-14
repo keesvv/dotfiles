@@ -10,6 +10,8 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 
+AUTO_LS_COMMANDS=(ls)
+
 source ~/.zplug/init.zsh
 source ~/.dotfiles/scripts/aliases.sh
 source ~/.dotfiles/scripts/path.sh
@@ -18,6 +20,7 @@ zplug "plugins/colored-man-pages", from:oh-my-zsh
 zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-history-substring-search"
+zplug "desyncr/auto-ls"
 zplug "romkatv/powerlevel10k", as:theme, depth:1
 
 if ! zplug check --verbose; then
