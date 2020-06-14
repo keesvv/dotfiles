@@ -17,5 +17,6 @@
     "explorer.confirmDragAndDrop": false,
     "typescript.updateImportsOnFileMove.enabled": "never",
     "todo-tree.tree.showScanModeButton": false,
-    "todo-tree.highlights.enabled": true
+    "todo-tree.highlights.enabled": true,
+    "editor.minimap.enabled": false
 }
