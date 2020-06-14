@@ -335,9 +335,9 @@ tray-detached = true
 tray-offset-x = -490
 tray-offset-y = 0
 tray-position = right
-tray-padding = 5
+tray-padding = 2
 tray-maxsize = 20
-tray-scale = 1.0
+tray-scale = 0.9
 tray-background = ${colors.background}
 
 scroll-up = bspwm-desknext

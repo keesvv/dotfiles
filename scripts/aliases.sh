@@ -1,7 +1,14 @@
 # Git aliases
+alias g='git'
+alias ga='git add'
 alias gs='git status'
+alias gb='git branch'
+alias gc='git commit -v'
+alias gd='git diff'
+alias gco='git checkout'
 
 # File listing
+alias ls='ls --color=auto'
 alias la='ls -A'
 alias l='ls -la'
 
