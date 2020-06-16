@@ -39,5 +39,5 @@ elif sys.argv[1] == 'chill':
 elif sys.argv[1] == 'dim':
     bridge.activate_scene(room_name, dim_scene)
 elif sys.argv[1] == 'notification':
-    b.set_light(ledstrip_id, 'alert', 'select')
+    bridge.set_light(ledstrip_id, 'alert', 'select')
 
