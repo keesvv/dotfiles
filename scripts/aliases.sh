@@ -8,6 +8,7 @@ alias gd='git diff'
 alias gp='git push'
 alias gco='git checkout'
 alias glo='git log --oneline'
+alias glc='git log --oneline | wc -l'
 
 # File listing
 alias ls='ls --color=auto'
