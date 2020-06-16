@@ -364,9 +364,9 @@
 #    msg_urgency = critical
 #    fullscreen = show
 
-#[espeak]
-#    summary = "*"
-#    script = dunst_espeak.sh
+[hue]
+    summary = "*"
+    script = ~/.dotfiles/scripts/autohue/main.py notification
 
 #[script-test]
 #    summary = "*script*"
