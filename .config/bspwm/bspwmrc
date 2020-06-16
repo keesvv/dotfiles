@@ -40,11 +40,14 @@ xset r rate $KEYBOARD_DELAY $KEYBOARD_RATE
 ## Monitors
 bspc monitor $MONITOR -d 1 2 3 4 5
 
-# Rules
+## Rules
 bspc rule -a Zathura state=tiled
 
 ## Other
 bspc config focus_follows_pointer true
 bspc config window_gap 10
 bspc config top_padding 20
+
+# Control lights on login
+~/.dotfiles/scripts/autohue/login.sh
 
