@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 #
 # Script for controlling my Hue bulbs
@@ -14,6 +14,7 @@ chill_scene = 'ExG65m1qcHIW6k-'
 dim_scene   = 'j1uBBjWRkozFJDa'
 bridge_ip   = '192.168.1.2'
 room_name   = 'Gamekamer'
+ledstrip_id = 6
 
 # Insufficient arguments
 if len(sys.argv) < 2:
@@ -37,4 +38,6 @@ elif sys.argv[1] == 'chill':
     bridge.activate_scene(room_name, chill_scene)
 elif sys.argv[1] == 'dim':
     bridge.activate_scene(room_name, dim_scene)
+elif sys.argv[1] == 'notification':
+    b.set_light(ledstrip_id, 'alert', 'select')
 

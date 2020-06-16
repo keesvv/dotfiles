@@ -7,16 +7,14 @@
 
 ## Dependencies
 ### zsh
-* oh-my-zsh
-* zsh-autosuggestions
-* zsh-syntax-highlighting
-* nvm
+* zplug
 
 ### bspwm
 * feh
 * polybar
 * picom
 * brightnessctl
+* playerctl
 * flameshot
 * urxvt
 * xinput
@@ -25,7 +23,6 @@
 * ranger
 * dunst
 * sxhkd
-* playerctl
 
 ### polybar
 * nerd-fonts-ubuntu-mono
@@ -38,17 +35,7 @@
 ### Visual Studio Code
 * Theme: **1984**
 * Icon Theme: **Material Icon Theme**
-* Extensions:
-  - C/C++
-  - Debugger for Chrome
-  - Docker
-  - EJS language support
-  - ESLint
-  - GitLens
-  - i18n Ally
-  - Live Server
-  - Todo Tree
-  - Vetur
+* Font: **ttf-droid**
 
 ## License
 Idk just do whatever you want with it.

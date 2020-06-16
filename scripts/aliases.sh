@@ -5,6 +5,7 @@ alias gs='git status'
 alias gb='git branch'
 alias gc='git commit -v'
 alias gd='git diff'
+alias gp='git push'
 alias gco='git checkout'
 alias glo='git log --oneline'
 
