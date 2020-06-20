@@ -4,6 +4,7 @@ source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 # global variables
 export EDITOR='vim'
 export SSH_KEY_PATH="~/.ssh/id_rsa"
+export ZSH_PLUGINS_ALIAS_TIPS_EXCLUDES="g"
 
 # local variables
 HISTFILE=~/.zsh_history
@@ -22,6 +23,7 @@ zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-history-substring-search"
 zplug "desyncr/auto-ls"
+zplug "djui/alias-tips"
 zplug "romkatv/powerlevel10k", as:theme, depth:1
 
 if ! zplug check --verbose; then
