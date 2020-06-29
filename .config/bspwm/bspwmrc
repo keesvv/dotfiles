@@ -36,6 +36,9 @@ fi
 # Keyboard speed
 xset r rate $KEYBOARD_DELAY $KEYBOARD_RATE
 
+# Xorg settings
+xsetroot -cursor_name left_ptr &
+
 # bspwm config
 ## Monitors
 bspc monitor $MONITOR -d 1 2 3 4 5
