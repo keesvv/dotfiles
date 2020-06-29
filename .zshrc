@@ -1,3 +1,6 @@
+# print system info
+neofetch
+
 # powerlevel10k instant prompt
 source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 
