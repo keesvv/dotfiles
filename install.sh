@@ -12,6 +12,7 @@ while IFS=";" read PACKAGE_NAME IS_OPTIONAL; do
     fi
 done < <(echo "$RAW_DEPS")
 
+# Prompt a package checklist
 PACKAGES=$(\
     dialog \
         --title "Kees' Dotfiles" \
@@ -21,11 +22,19 @@ PACKAGES=$(\
 )
 
 clear
+
+# Quit if no packages were selected
+if [ -z "$PACKAGES" ]; then
+    exit
+fi
+
+# Install selected packages
 yay -S $PACKAGES
 
-exit
+# Install zplug
+git clone https://github.com/zplug/zplug ~/.zplug
 
-# Definitions
+# Ranger plugins
 ranger_plugins=(
     "https://github.com/alexanderjeurissen/ranger_devicons"
 )
@@ -36,22 +45,16 @@ ln -srf .zshrc .Xdefaults .vim .vimrc .tmux.conf .p10k.zsh ~/
 ln -srf .config/* ~/.config/
 ln -srf .vscode/* ~/.config/Code/User/
 
-# Download ranger plugins
-echo "Updating and installing Ranger plugins..."
+# Install ranger plugins
+echo "Installing Ranger plugins..."
 
 for i in "$ranger_plugins"
 do
     PLUG_NAME=$(echo "$i" | cut -d/ -f5)
     PLUG_DIR="$HOME/.config/ranger/plugins/$PLUG_NAME"
-
-    echo "$i -> $PLUG_NAME"
-
-    if [ ! -d "$PLUG_DIR"  ]; then
-        git clone "$i" "$PLUG_DIR"
-    else
-        (cd "$PLUG_DIR" && git pull)
-    fi
+    git clone "$i" "$PLUG_DIR"
 done
 
+# We're done
 echo "Done!"
 
