@@ -26,6 +26,10 @@ super + shift + {h,j,k,l}
 super + alt + shift + {h,j,k,l}
     bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
 
+# Toggle floating mode
+super + shift + f
+    bspc node -t \~floating
+
 # Shutdown
 ctrl + alt + Delete
     sudo reboot
