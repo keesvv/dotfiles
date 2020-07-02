@@ -1,12 +1,5 @@
 # print system info
-neofetch \
-    --cpu_temp C \
-    --gtk3 off \
-    --gtk2 off \
-    --memory_percent on \
-    --block_range 1 7 \
-    --gap 8
-printf '\n'
+source ~/.dotfiles/scripts/neofetch.sh
 
 # powerlevel10k instant prompt
 source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
