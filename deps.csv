@@ -6,8 +6,6 @@ polybar;
 picom;
 playerctl;
 perl;
-rxvt-unicode;
-urxvt-resize-font-git;
 xorg-xinput;
 rofi;
 tmux;
@@ -18,6 +16,10 @@ ytop-bin;
 nerd-fonts-ubuntu-mono;
 ttf-font-awesome-4;
 ttf-droid;
+betterlockscreen;
+alacritty;
 brightnessctl;X
 flameshot;X
 ckb-next;X
+rxvt-unicode;X
+urxvt-resize-font-git;X
