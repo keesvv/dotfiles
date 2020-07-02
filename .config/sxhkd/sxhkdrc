@@ -8,7 +8,7 @@ super + a
 
 # Open Terminal
 super + Return
-    urxvt
+    $TERMINAL
 
 # Switch windows
 alt + Tab
