@@ -48,7 +48,7 @@ XF86AudioMute
 
 # Lock screen
 super + l
-    dm-tool lock
+    betterlockscreen -t "Kees van Voorthuizen" -l
 
 # Show task manager
 ctrl + Escape
