@@ -14,6 +14,10 @@ super + Return
 alt + Tab
     rofi -show window
 
+# Emoji picker
+super + period
+    rofimoji
+
 # Close window
 super + q
     bspc node --close
