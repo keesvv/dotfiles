@@ -62,6 +62,10 @@ nnoremap <C-p> :GFiles<CR>
 nmap <leader>gd <Plug>(coc-definition)
 nmap <leader>gr <Plug>(coc-references)
 
+"Change cursor shape based on current mode
+autocmd InsertEnter * set cul
+autocmd InsertLeave * set nocul
+
 "Fix slow ESC
 set ttimeout
 set ttimeoutlen=0
