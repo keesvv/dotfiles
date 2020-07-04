@@ -43,6 +43,7 @@ ranger_plugins=(
 echo "Linking files..."
 ln -srf .zshrc .Xdefaults .vim .vimrc .tmux.conf .p10k.zsh ~/
 ln -srf .config/* ~/.config/
+ln -srf .config/ranger/* ~/.config/ranger/
 ln -srf .vscode/* ~/.config/Code/User/
 
 # Install ranger plugins
