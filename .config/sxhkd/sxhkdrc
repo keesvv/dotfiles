@@ -133,3 +133,7 @@ super + s
 # Open browser
 super + b
     $BROWSER
+
+# Open music player
+super + m
+    cmus
