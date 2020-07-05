@@ -144,4 +144,4 @@ super + b
 
 # Open music player
 super + m
-    cmus
+    $TERMINAL -e cmus
