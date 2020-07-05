@@ -50,6 +50,18 @@ XF86AudioLowerVolume
 XF86AudioMute
     amixer -q set Master toggle
 
+# Next track
+XF86AudioNext
+    playerctl next
+
+# Previous track
+XF86AudioPrev
+    playerctl previous
+
+# Play/pause
+XF86AudioPlay
+    playerctl play-pause
+
 # Lock screen
 super + l
     betterlockscreen -t "Kees van Voorthuizen" -l
@@ -109,10 +121,6 @@ super + v
 # Disconnect from VPN
 super + shift + v
     sudo protonvpn disconnect
-
-# Play/pause current playing media
-XF86AudioPlay
-    playerctl play-pause
 
 # Network settings
 super + n
