@@ -41,7 +41,7 @@ ranger_plugins=(
 
 # Link files
 echo "Linking files..."
-ln -srf .zshrc .zshenv .Xdefaults .vim .vimrc .tmux.conf .p10k.zsh .xinitrc ~/
+ln -srf .zshrc .zshenv .zprofile .Xdefaults .vim .vimrc .tmux.conf .p10k.zsh .xinitrc ~/
 ln -srf .config/* ~/.config/
 ln -srf .config/ranger/* ~/.config/ranger/
 ln -srf .vscode/* ~/.config/Code/User/
