@@ -92,11 +92,11 @@ super + {_,shift + }{1-9,0}
 
 # Increase brightness
 XF86MonBrightnessUp
-    brightnessctl set +10%
+    sudo brightnessctl set +10%
 
 # Decrease brightness
 XF86MonBrightnessDown
-    brightnessctl set 10%-
+    sudo brightnessctl set 10%-
 
 # End session
 super + End
