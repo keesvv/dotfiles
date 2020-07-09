@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 RAW_DEPS=$(sed '1d' deps.csv | sort)
 
-while IFS=";" read PACKAGE_NAME IS_OPTIONAL; do
+while IFS="," read PACKAGE_NAME IS_OPTIONAL; do
     CHECKLIST+=("$PACKAGE_NAME")
     CHECKLIST+=('')
 
