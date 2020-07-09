@@ -1,0 +1,14 @@
+# Kees' Newsboat Config
+
+# Miscellaneous
+confirm-exit        no
+max-items           100
+
+# Notifications
+notify-program      notify-send
+notify-always       yes
+
+# Auto reloading
+auto-reload         yes
+reload-threads      4
+reload-time         1
