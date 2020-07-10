@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-TARGET="/mnt/backup"
+HOSTNAME=$(hostname)
+DEST="/mnt/backup/$HOSTNAME"
+RSYNC_ARGS=(-avzP --delete --delete-excluded --stats --no-links)
 
-rsync -avzP --delete --delete-excluded --stats \
+rsync "${RSYNC_ARGS[@]}" \
     --exclude "**/.*" \
     --exclude "**/node_modules" \
     --exclude "Source" \
-    --exclude "Backups" \
     --exclude "Containers" \
     --exclude "Documents/Virtual Machines" \
-    /home/kees "$TARGET"
-
+    /home/kees "$DEST"
