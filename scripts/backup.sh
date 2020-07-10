@@ -7,6 +7,5 @@ rsync "${RSYNC_ARGS[@]}" \
     --exclude "**/.*" \
     --exclude "**/node_modules" \
     --exclude "Source" \
-    --exclude "Containers" \
     --exclude "Documents/Virtual Machines" \
     /home/kees "$DEST"
