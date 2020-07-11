@@ -1,3 +1,4 @@
+cd ~/.dotfiles/scripts/youtubedl
 node extractBookmarks.js
 
 youtube-dl \

@@ -145,3 +145,7 @@ super + b
 # Open music player
 super + m
     $TERMINAL -e cmus
+
+# Download bookmarked music
+super + shift + m
+    $TERMINAL -e ~/.dotfiles/scripts/youtubedl/download.sh
