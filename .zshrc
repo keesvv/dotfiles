@@ -1,3 +1,6 @@
+# pywal
+(cat ~/.cache/wal/sequences &)
+
 # print system info
 source ~/.dotfiles/scripts/neofetch.sh
 

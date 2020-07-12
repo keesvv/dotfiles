@@ -6,7 +6,8 @@ if [ $(cat /etc/hostname) = "laptop"  ]; then
 fi
 
 # Set wallpaper
-feh --bg-scale --no-fehbg ~/.dotfiles/.config/bspwm/wallpaper.jpg
+#feh --bg-scale --no-fehbg ~/.dotfiles/.config/bspwm/wallpaper.jpg
+wal -i ~/.dotfiles/.config/bspwm/wallpaper.jpg
 
 # Function for running startup programs
 function run_once {
