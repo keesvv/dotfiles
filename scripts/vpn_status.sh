@@ -2,8 +2,8 @@
 CONNECT_STATUS=$(ip a | grep proton0)
 
 if [ -z "$CONNECT_STATUS" ]; then
-    echo "  %{F#fff} "
+    echo " %{F#fff} "
 else
-    echo "  %{F#5de34b} "
+    echo " %{F#5de34b} "
 fi
 

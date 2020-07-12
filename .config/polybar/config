@@ -27,13 +27,14 @@ format-offset =
 
 [colors]
 ; Nord theme ============
-background = #292d3e
+background = #99292d3e
 foreground = #c0c5ce
 foreground-dim = #787b80
 alert = #bd2c40
 volume-min = #a3be8c
 volume-med = #ebcb8b
 volume-max = #bf616a
+underline = ${colors.foreground}
 
 arrow-1 = #696969
 arrow-2 = #424242
@@ -329,7 +330,7 @@ font-4 = "Font Awesome 5 Brands:pixelsize=8;1"
 
 modules-left = battery bspwm xwindow
 modules-center = mpris 
-modules-right = arrow1 vpn arrow2 memory2 arrow3 cpu2 arrow2 pavolume arrow3 arch-aur-updates arrow2 date
+modules-right = vpn memory2 cpu2 pavolume arch-aur-updates date
 
 tray-detached = true
 tray-offset-x = -490
@@ -704,10 +705,12 @@ exec = ~/.dotfiles/scripts/updates.sh
 interval = 1000
 label = %output%
 format-foreground = #fefefe
-format-background = ${colors.arrow-1}
+format-background = ${colors.background}
 format-prefix = "   "
 format-prefix-foreground = #fefefe
-
+format-padding = 1
+format-margin = 1
+format-underline = ${colors.underline}
 
 [module/aur-updates]
 type = custom/script
@@ -895,9 +898,12 @@ type = internal/cpu
 ; Default: 1
 interval = 1
 format-foreground = #fefefe
-format-background = ${colors.arrow-1}
+format-background = ${colors.background}
 format-prefix = "  "
 format-prefix-foreground = #fefefe
+format-padding = 1
+format-margin = 1
+format-underline = ${colors.underline}
 
 label-font = 1
 
@@ -931,7 +937,10 @@ time = %R
 format-prefix = "  "
 format-prefix-foreground = #fefefe
 format-foreground = #fefefe
-format-background = ${colors.arrow-2}
+format-background = ${colors.background}
+format-padding = 1
+format-margin = 1
+format-underline = ${colors.underline}
 label = "%date% %time% "
 
 #################################################################
@@ -1115,8 +1124,11 @@ format-background = ${colors.background}
 [module/vpn]
 type = custom/script
 exec = "sh ~/.dotfiles/scripts/vpn_status.sh"
-format-background = ${colors.arrow-1}
-interval = 1
+format-background = ${colors.background}
+format-underline = ${colors.underline}
+format-padding = 1
+format-margin = 1
+interval = 2
 
 [module/mpris]
 type = custom/script
@@ -1144,7 +1156,10 @@ format = <label>
 format-prefix = "   "
 format-prefix-foreground = #fefefe
 format-foreground = #fefefe
-format-background = ${colors.arrow-2}
+format-background = ${colors.background}
+format-underline = ${colors.underline}
+format-padding = 1
+format-margin = 1
 
 ################################################################################
 
@@ -1253,9 +1268,10 @@ click-left = ~/.dotfiles/scripts/pavolume.sh --togmute
 scroll-up = ~/.dotfiles/scripts/pavolume.sh --up
 scroll-down = ~/.dotfiles/scripts/pavolume.sh --down
 format-foreground = #fefefe
-format-background = ${colors.arrow-2}
-
-
+format-background = ${colors.background}
+format-padding = 1
+format-margin = 1
+format-underline = ${colors.underline}
 
 ################################################################################
 
