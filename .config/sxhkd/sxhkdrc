@@ -4,7 +4,7 @@ super + Home
 
 # Run an application
 super + a
-    rofi -show run
+    rofi -show drun
 
 # Open Terminal
 super + Return
