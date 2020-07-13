@@ -9,3 +9,4 @@ rsync "${RSYNC_ARGS[@]}" \
     /home/kees "$DEST"
 
 rsync "${RSYNC_ARGS[@]}" /mnt/server/Pictures "$DEST"
+rsync "${RSYNC_ARGS[@]}" /mnt/server/Videos "$DEST"
