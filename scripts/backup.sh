@@ -10,3 +10,6 @@ rsync "${RSYNC_ARGS[@]}" \
 
 rsync "${RSYNC_ARGS[@]}" /mnt/server/Pictures "$DEST"
 rsync "${RSYNC_ARGS[@]}" /mnt/server/Videos "$DEST"
+
+cp -avfT ~/.ssh "$DEST/ssh"
+cp -avfT ~/.gnupg "$DEST/gnupg"
