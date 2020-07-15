@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
+source ./vars.sh
+
 HOSTNAME=$(hostname)
 DEST="/mnt/backup/$HOSTNAME"
-RSYNC_ARGS=(-avzP --delete --delete-excluded --stats --no-links)
 
 rsync "${RSYNC_ARGS[@]}" \
     --exclude "**/.*" \
