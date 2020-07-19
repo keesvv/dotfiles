@@ -68,7 +68,7 @@ super + l
 
 # Show task manager
 ctrl + Escape
-    $TERMINAL -e ytop
+    $TERMINAL -e ytop -p
 
 # Fullscreen
 super + f
