@@ -27,6 +27,8 @@ call plug#end()
 let g:airline_powerline_fonts = 1
 let g:gruvbox_italic = 1
 let g:user_emmet_leader_key='<C-E>'
+let g:gitgutter_realtime = 0
+let g:gitgutter_eager = 0
 let mapleader = " "
 
 set shortmess=I    "Disable splash screen
@@ -41,7 +43,7 @@ set relativenumber "Relative line numbers
 set noshowmode     "No default statusline
 set nowrap         "No line wrapping
 set bg=dark        "Dark theme
-set updatetime=100
+set updatetime=250
 
 "Syntax highlighting
 filetype plugin on
