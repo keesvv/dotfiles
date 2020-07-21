@@ -12,6 +12,8 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'morhetz/gruvbox'
 Plug 'junegunn/fzf.vim'
 Plug 'posva/vim-vue'
+Plug 'mattn/emmet-vim'
+Plug 'tpope/vim-fugitive'
 
 "COC plugins
 Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
@@ -24,6 +26,7 @@ call plug#end()
 "Options & settings
 let g:airline_powerline_fonts = 1
 let g:gruvbox_italic = 1
+let g:user_emmet_leader_key='<C-E>'
 let mapleader = " "
 
 set shortmess=I    "Disable splash screen
@@ -38,6 +41,7 @@ set relativenumber "Relative line numbers
 set noshowmode     "No default statusline
 set nowrap         "No line wrapping
 set bg=dark        "Dark theme
+set updatetime=100
 
 "Syntax highlighting
 filetype plugin on
@@ -61,6 +65,7 @@ nnoremap <C-p> :GFiles<CR>
 
 nmap <leader>gd <Plug>(coc-definition)
 nmap <leader>gr <Plug>(coc-references)
+nmap <leader>gs :G<CR>
 
 "Change cursor shape based on current mode
 autocmd InsertEnter * set cul
