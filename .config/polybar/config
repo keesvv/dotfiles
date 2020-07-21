@@ -333,7 +333,7 @@ modules-center = mpris
 modules-right = vpn memory2 cpu2 pavolume arch-aur-updates date
 
 tray-detached = true
-tray-offset-x = -490
+tray-offset-x = -530
 tray-offset-y = 0
 tray-position = right
 tray-padding = 2
