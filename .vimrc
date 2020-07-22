@@ -11,14 +11,18 @@ Plug 'preservim/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'morhetz/gruvbox'
 Plug 'junegunn/fzf.vim'
-Plug 'posva/vim-vue'
+Plug 'leafOfTree/vim-vue-plugin'
 Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'dense-analysis/ale'
 
 "COC plugins
 Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-python', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-vetur', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-eslint', {'do': 'yarn install --frozen-lockfile'}
 
 "End plugins
 call plug#end()
@@ -29,6 +33,9 @@ let g:gruvbox_italic = 1
 let g:user_emmet_leader_key='<C-E>'
 let g:gitgutter_realtime = 0
 let g:gitgutter_eager = 0
+let g:ale_fix_on_save = 1
+let b:ale_linter_aliases = ['javascript', 'vue', 'typescript']
+let b:ale_linters = ['eslint']
 let mapleader = " "
 
 set shortmess=I    "Disable splash screen
@@ -57,7 +64,7 @@ colorscheme gruvbox
 map <space> /
 map <silent><S-Up> :m-2<CR>
 map <silent><S-Down> :m+<CR>
-map <silent><C-B> :NERDTree<CR>
+map <silent><C-B> :NERDTreeToggle<CR>
 
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
