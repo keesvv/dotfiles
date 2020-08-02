@@ -77,10 +77,10 @@ nmap <leader>gr <Plug>(coc-references)
 nmap <leader>gs :G<CR>
 
 "No arrow keys, learning Vim the hard way ;)
-noremap <Up> <Nop>
-noremap <Down> <Nop>
-noremap <Left> <Nop>
-noremap <Right> <Nop>
+"noremap <Up> <Nop>
+"noremap <Down> <Nop>
+"noremap <Left> <Nop>
+"noremap <Right> <Nop>
 
 "Change cursor shape based on current mode
 autocmd InsertEnter * set cul
