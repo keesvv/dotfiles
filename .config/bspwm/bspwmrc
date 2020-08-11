@@ -58,4 +58,4 @@ bspc config border_width 2
 ~/.dotfiles/scripts/autohue/login.sh
 
 # Set up NZXT RGB control
-~/.dotfiles/scripts/rgb.sh
+~/.dotfiles/scripts/rgb/init.sh
