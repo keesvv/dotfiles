@@ -58,6 +58,14 @@ XF86AudioNext
 XF86AudioPrev
     playerctl previous
 
+# Skip 5 seconds
+ctrl + XF86AudioNext
+    playerctl position 5+
+
+# Prev 5 seconds
+ctrl + XF86AudioPrev
+    playerctl position 5-
+
 # Play/pause
 XF86AudioPlay
     playerctl play-pause
