@@ -1,16 +1,22 @@
 #!/usr/bin/env bash
-source ./vars.sh
-
 HOSTNAME=$(hostname)
-DEST="/mnt/backup/$HOSTNAME"
+DEST="file:///mnt/backup/$HOSTNAME"
 
-rsync "${RSYNC_ARGS[@]}" \
-    --exclude "**/.*" \
+read -p "Password: " PASSPHRASE
+export PASSPHRASE=$PASSPHRASE
+
+duplicity \
+    --exclude "/home/kees/.cache" \
+    --exclude "/home/kees/.vscode*" \
     --exclude "**/node_modules" \
-    /home/kees/ "$DEST/Home"
-
-rsync "${RSYNC_ARGS[@]}" /mnt/server/Pictures "$DEST"
-rsync "${RSYNC_ARGS[@]}" /mnt/server/Videos "$DEST"
-
-cp -avfT ~/.ssh "$DEST/ssh"
-cp -avfT ~/.gnupg "$DEST/gnupg"
+    --exclude "**/dynmap" \
+    --include "/home/kees" \
+    --include "/mnt/data/Pictures" \
+    --include "/mnt/data/Videos" \
+    --include "/mnt/data/Public" \
+    --include "/boot" \
+    --include "/etc" \
+    --exclude "**" \
+    --verbosity info \
+    --progress \
+    / "$DEST"
