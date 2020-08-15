@@ -14,6 +14,7 @@ duplicity \
     --include "/mnt/data/Pictures" \
     --include "/mnt/data/Videos" \
     --include "/mnt/data/Public" \
+    --include "/mnt/windows/Users/keesv/Documents/Image-Line" \
     --include "/boot" \
     --include "/etc" \
     --exclude "**" \
