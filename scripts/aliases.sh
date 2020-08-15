@@ -31,3 +31,6 @@ alias keyedit='vi ~/.dotfiles/.config/sxhkd/sxhkdrc'
 
 # Vim
 alias vi='vim'
+
+# Superuser alias workaround
+alias sudo='sudo '
