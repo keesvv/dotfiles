@@ -1,0 +1,6 @@
+#!/bin/sh
+source ./vars-shared
+
+export MONITOR="HDMI-0"
+export MOUSE_DEVID=8
+export MOUSE_ACCEL=-0.90
