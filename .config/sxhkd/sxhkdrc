@@ -108,7 +108,7 @@ XF86MonBrightnessDown
 
 # End session
 super + End
-    bspc quit
+    sudo killall Xorg
 
 # Open file manager
 super + z
