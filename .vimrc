@@ -46,7 +46,7 @@ set smarttab       "Smart tab
 set shiftwidth=4   "Shift width
 set tabstop=4      "Tab width
 set ai             "Auto indent
-set relativenumber "Relative line numbers
+set number         "Line numbers
 set noshowmode     "No default statusline
 set nowrap         "No line wrapping
 set bg=dark        "Dark theme

@@ -12,7 +12,7 @@ alias glo='git log --oneline'
 alias glc='git log --oneline | wc -l'
 
 # File listing
-alias ls='ls --color=auto'
+alias ls='ls --color=auto --group-directories-first'
 alias la='ls -A'
 alias l='ls -la'
 

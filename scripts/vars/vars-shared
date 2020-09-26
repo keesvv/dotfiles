@@ -1,9 +1,5 @@
 #!/bin/sh
 export TERMINAL="alacritty"
 export BROWSER="google-chrome-stable"
-export MONITOR="HDMI-0"
 export KEYBOARD_DELAY=200
 export KEYBOARD_RATE=25
-export MOUSE_DEVID=8
-export MOUSE_ACCEL=-0.90
-
