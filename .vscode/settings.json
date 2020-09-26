@@ -1,6 +1,6 @@
 {
     "window.titleBarStyle": "custom",
-    "workbench.colorTheme": "1984",
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
     "workbench.iconTheme": "material-icon-theme",
     "window.zoomLevel": 0,
     "editor.fontSize": 13,
@@ -19,5 +19,10 @@
     "todo-tree.tree.showScanModeButton": false,
     "todo-tree.highlights.enabled": true,
     "editor.minimap.enabled": true,
-    "i18n-ally.displayLanguage": "nl"
+    "i18n-ally.displayLanguage": "nl",
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "diffEditor.renderSideBySide": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "editor.fontFamily": "'SF Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'"
 }
