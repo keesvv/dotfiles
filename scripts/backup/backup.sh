@@ -6,14 +6,17 @@ read -p "Password: " PASSPHRASE
 export PASSPHRASE=$PASSPHRASE
 
 duplicity \
-    --exclude "/home/kees/.cache" \
-    --exclude "/home/kees/.vscode*" \
     --exclude "**/node_modules" \
     --exclude "**/dynmap" \
-    --include "/home/kees" \
+    --include "/home/kees/Containers" \
+    --include "/home/kees/Documents" \
+    --include "/home/kees/Desktop" \
+    --include "/home/kees/Music" \
+    --include "/home/kees/Projects" \
     --include "/mnt/data/Pictures" \
     --include "/mnt/data/Videos" \
-    --include "/mnt/data/Public" \
+    --include "/mnt/data/Nextcloud" \
+    --include "/mnt/data/Minecraft Servers" \
     --include "/mnt/windows/Users/keesv/Documents/Image-Line" \
     --include "/boot" \
     --include "/etc" \
