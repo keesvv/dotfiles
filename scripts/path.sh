@@ -5,6 +5,7 @@ PATH="$PATH:/home/kees/.nvm/versions/node/v12.16.1/bin"
 PATH="$PATH:/home/kees/.yarn/bin"
 PATH="$PATH:/home/kees/Source/flutter/bin"
 PATH="$PATH:/home/kees/.cargo/bin"
+PATH="$PATH:/home/kees/.gem/ruby/2.7.0/bin"
 
 export PATH
 
