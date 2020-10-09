@@ -22,7 +22,8 @@
     "i18n-ally.displayLanguage": "nl",
     "javascript.updateImportsOnFileMove.enabled": "never",
     "diffEditor.renderSideBySide": true,
-    "typescript.referencesCodeLens.enabled": true,
     "typescript.implementationsCodeLens.enabled": true,
-    "editor.fontFamily": "'SF Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'"
+    "editor.fontFamily": "'SF Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "RPC.showIdle": false,
+    "editor.codeLens": false
 }
