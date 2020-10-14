@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 neofetch \
     --cpu_temp C \
+    --refresh_rate on \
     --gtk3 off \
     --gtk2 off \
     --memory_percent on \
