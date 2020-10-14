@@ -16,6 +16,7 @@ Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'dense-analysis/ale'
+Plug 'lervag/vimtex'
 
 "COC plugins
 Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
@@ -23,6 +24,7 @@ Plug 'neoclide/coc-python', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-vetur', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-eslint', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-vimtex', {'do': 'yarn install --frozen-lockfile'}
 
 "End plugins
 call plug#end()
@@ -34,6 +36,7 @@ let g:user_emmet_leader_key='<C-E>'
 let g:gitgutter_realtime = 0
 let g:gitgutter_eager = 0
 let g:ale_fix_on_save = 1
+let g:tex_flavor = 'latex'
 let b:ale_linter_aliases = ['javascript', 'vue', 'typescript']
 let b:ale_linters = ['eslint']
 let mapleader = " "
