@@ -15,6 +15,7 @@ Plug 'leafOfTree/vim-vue-plugin'
 Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-dispatch'
 Plug 'dense-analysis/ale'
 Plug 'lervag/vimtex'
 
@@ -64,7 +65,6 @@ highlight LineNr ctermfg=grey
 colorscheme gruvbox
 
 "Mappings
-map <space> /
 map <silent><S-Up> :m-2<CR>
 map <silent><S-Down> :m+<CR>
 map <silent><C-B> :NERDTreeToggle<CR>
@@ -78,6 +78,8 @@ nnoremap <C-p> :GFiles<CR>
 nmap <leader>gd <Plug>(coc-definition)
 nmap <leader>gr <Plug>(coc-references)
 nmap <leader>gs :G<CR>
+
+nmap <F5> :Dispatch!<CR>
 
 "No arrow keys, learning Vim the hard way ;)
 "noremap <Up> <Nop>
@@ -93,4 +95,3 @@ autocmd InsertLeave * set nocul
 set ttimeout
 set ttimeoutlen=0
 set timeoutlen=1000
-
