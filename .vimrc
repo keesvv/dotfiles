@@ -79,6 +79,14 @@ nmap <leader>gd <Plug>(coc-definition)
 nmap <leader>gr <Plug>(coc-references)
 nmap <leader>gs :G<CR>
 
+"Window management
+nmap <leader>q <C-W>q
+nmap <leader>h <C-W>h
+nmap <leader>j <C-W>j
+nmap <leader>k <C-W>k
+nmap <leader>l <C-W>l
+
+"Compile command
 nmap <F5> :Dispatch!<CR>
 
 "No arrow keys, learning Vim the hard way ;)
