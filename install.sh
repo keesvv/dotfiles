@@ -49,7 +49,7 @@ ln -srf .vscode/* ~/.config/Code/User/
 # Install ranger plugins
 echo "Installing Ranger plugins..."
 
-for i in "$ranger_plugins"
+for i in $ranger_plugins
 do
     PLUG_NAME=$(echo "$i" | cut -d/ -f5)
     PLUG_DIR="$HOME/.config/ranger/plugins/$PLUG_NAME"

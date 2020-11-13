@@ -1,5 +1,5 @@
 #!/bin/sh
 export TERMINAL="alacritty"
-export BROWSER="google-chrome-stable"
+export BROWSER="firefox"
 export KEYBOARD_DELAY=200
 export KEYBOARD_RATE=25
