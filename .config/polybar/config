@@ -333,10 +333,10 @@ modules-center = mpris
 modules-right = vpn memory2 cpu2 pavolume arch-aur-updates date
 
 tray-detached = true
-tray-offset-x = -530
+tray-offset-x = -380
 tray-offset-y = 0
 tray-position = right
-tray-padding = 2
+tray-padding = 3
 tray-maxsize = 20
 tray-scale = 0.9
 tray-background = ${colors.background}
@@ -706,7 +706,7 @@ interval = 1000
 label = %output%
 format-foreground = #fefefe
 format-background = ${colors.background}
-format-prefix = "   "
+format-prefix = "  "
 format-prefix-foreground = #fefefe
 format-padding = 1
 format-margin = 1
@@ -899,7 +899,7 @@ type = internal/cpu
 interval = 1
 format-foreground = #fefefe
 format-background = ${colors.background}
-format-prefix = "  "
+format-prefix = " "
 format-prefix-foreground = #fefefe
 format-padding = 1
 format-margin = 1
@@ -934,14 +934,14 @@ date = " %F"
 ;date-alt = " %a %b %d, %Y"
 time = %R
 ;time-alt = %l:%M%p
-format-prefix = "  "
-format-prefix-foreground = #fefefe
+;format-prefix = "  "
+;format-prefix-foreground = #fefefe
 format-foreground = #fefefe
 format-background = ${colors.background}
-format-padding = 1
+;format-padding = 1
 format-margin = 1
 format-underline = ${colors.underline}
-label = "%date% %time% "
+label = "%time%"
 
 #################################################################
 
@@ -1153,7 +1153,7 @@ interval = 1
 label = %percentage_used%%
 
 format = <label>
-format-prefix = "   "
+format-prefix = "  "
 format-prefix-foreground = #fefefe
 format-foreground = #fefefe
 format-background = ${colors.background}
@@ -1261,7 +1261,7 @@ format-underline = #FFBB00
 [module/pavolume]
 type = custom/script
 tail = true
-label = " %output%"
+label = "%output%"
 exec = ~/.dotfiles/scripts/pavolume.sh --listen
 click-right = exec pavucontrol
 click-left = ~/.dotfiles/scripts/pavolume.sh --togmute
