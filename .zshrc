@@ -1,9 +1,6 @@
 # pywal
 (cat ~/.cache/wal/sequences &)
 
-# powerlevel10k instant prompt
-source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-
 # global variables
 export EDITOR='vim'
 export SSH_KEY_PATH="~/.ssh/id_rsa"
