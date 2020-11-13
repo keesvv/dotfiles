@@ -2,6 +2,6 @@
 source ./vars-shared
 
 export MONITOR="eDP-1"
-export TOUCHPAD_ACCEL=-0.1
+export TOUCHPAD_ACCEL=3
 export TOUCHPAD_DEVID=13
 export MOUSE_DEVID=12
