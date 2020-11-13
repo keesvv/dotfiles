@@ -25,5 +25,6 @@
     "typescript.implementationsCodeLens.enabled": true,
     "editor.fontFamily": "'SF Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "RPC.showIdle": false,
-    "editor.codeLens": false
+    "editor.codeLens": false,
+    "RPC.checkIdle": false
 }
