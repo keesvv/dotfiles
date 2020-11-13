@@ -1,4 +1,5 @@
 #!/bin/sh
+cd ~/.dotfiles/scripts/init
 
 # Set wallpaper
 wal -i ~/.dotfiles/.wallpaper.jpg
