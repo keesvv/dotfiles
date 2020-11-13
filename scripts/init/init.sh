@@ -2,7 +2,7 @@
 cd ~/.dotfiles/scripts/init
 
 # Set wallpaper
-wal -i ~/.dotfiles/.wallpaper.jpg
+feh --bg-scale ~/.dotfiles/.wallpaper.jpg
 
 # Control lights on login
 ~/.dotfiles/scripts/autohue/login.sh

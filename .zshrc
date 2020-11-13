@@ -1,6 +1,3 @@
-# pywal
-(cat ~/.cache/wal/sequences &)
-
 # global variables
 export EDITOR='vim'
 export SSH_KEY_PATH="~/.ssh/id_rsa"
