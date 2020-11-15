@@ -21,7 +21,6 @@ zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-history-substring-search"
 zplug "desyncr/auto-ls"
 zplug "djui/alias-tips"
-zplug "romkatv/powerlevel10k", as:theme, depth:1
 
 if ! zplug check --verbose; then
     zplug install
@@ -46,5 +45,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
+eval "$(starship init zsh)"
