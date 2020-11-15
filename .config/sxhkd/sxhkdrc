@@ -130,8 +130,12 @@ super + v
 super + shift + v
     sudo protonvpn disconnect
 
-# Network settings
+# Newsboat
 super + n
+    $TERMINAL -e newsboat
+
+# Network settings
+super + shift + n
     $TERMINAL -e nmtui
 
 # Preselect direction for new window
