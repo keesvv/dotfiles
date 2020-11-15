@@ -86,17 +86,21 @@ super + f
 super + g
 	bspc node -s biggest
 
-# focus the next/previous desktop in the current monitor
-super + bracket{left,right}
-	bspc desktop -f {prev,next}
-
-# Move window to other desktop
+# Move window to next/previous desktop
 super + shift + bracket{left,right}
     bspc node -d {prev,next} -f
 
-# switch to specific desktop
-super + {_,shift + }{1-9,0}
-	bspc {desktop -f,node -d} '^{1-9,10}'
+# Move window to specific desktop
+super + shift + {1-9,0}
+    bspc node -d '^{1-9,10}' -f
+
+# Switch to next/previous desktop
+super + bracket{left,right}
+	bspc desktop -f {prev,next}
+
+# Switch to specific desktop
+super + {1-9,0}
+	bspc desktop -f '^{1-9,10}'
 
 # Increase brightness
 XF86MonBrightnessUp
