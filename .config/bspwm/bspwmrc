@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Source init script
-source ~/.dotfiles/scripts/init/init.sh
+~/.dotfiles/scripts/init/init.sh
 
 # bspwm config
 ## Monitors
@@ -13,3 +13,6 @@ bspc rule -a Zathura state=tiled
 ## Other
 bspc config focus_follows_pointer true
 bspc config window_gap 10
+
+# Lock the screen
+~/.dotfiles/scripts/lock.sh

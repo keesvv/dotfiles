@@ -72,7 +72,7 @@ XF86AudioPlay
 
 # Lock screen
 super + l
-    betterlockscreen -t "Kees van Voorthuizen" -l
+    ~/.dotfiles/scripts/lock.sh
 
 # Show task manager
 ctrl + Escape
