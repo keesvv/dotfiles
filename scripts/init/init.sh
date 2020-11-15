@@ -1,5 +1,4 @@
 #!/bin/sh
-cd ~/.dotfiles/scripts/init
 
 # Set wallpaper
 feh --bg-scale ~/.dotfiles/.wallpaper.jpg
@@ -10,7 +9,5 @@ feh --bg-scale ~/.dotfiles/.wallpaper.jpg
 # Set up NZXT RGB control
 ~/.dotfiles/scripts/rgb/init.sh
 
-source ./xorg.sh
-source ./exec.sh
-
-cd ~
+source ~/.dotfiles/scripts/init/xorg.sh
+source ~/.dotfiles/scripts/init/exec.sh
