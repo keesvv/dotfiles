@@ -17,6 +17,9 @@ alias ls='ls --color=auto --group-directories-first'
 alias la='ls -A'
 alias l='ls -la'
 
+# Trash
+alias tgrep='trash-list | grep'
+
 # Verbose copying
 alias cp='cp -iv'
 
