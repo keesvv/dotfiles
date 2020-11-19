@@ -20,7 +20,7 @@ super + period
 
 # Close window
 super + q
-    xdotool getactivewindow windowclose
+    bspc node -c
 
 # Expand window
 super + shift + {h,j,k,l}
