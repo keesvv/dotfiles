@@ -160,7 +160,7 @@ super + b
 
 # Open music player
 super + m
-    $TERMINAL -e cmus
+    $TERMINAL -e ncmpcpp
 
 # Download bookmarked music
 super + shift + m
