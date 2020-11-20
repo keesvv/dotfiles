@@ -17,3 +17,5 @@ run_once redshift
 run_once nextcloud
 run_once "sudo ckb-next-daemon"
 run_once ckb-next "-b"
+run_once mpd
+run_once mpd-mpris
