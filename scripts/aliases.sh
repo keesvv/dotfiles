@@ -16,6 +16,7 @@ alias glc='git log --oneline | wc -l'
 alias ls='ls --color=auto --group-directories-first'
 alias la='ls -A'
 alias l='ls -la'
+alias cdd='cd ..'
 
 # Trash
 alias tgrep='trash-list | grep'
