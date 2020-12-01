@@ -1,7 +1,8 @@
 #!/bin/sh
+source ~/.dotfiles/scripts/vars/vars.sh
 
 # Lock the screen
-~/.dotfiles/scripts/lock.sh
+#~/.dotfiles/scripts/lock.sh
 
 # Source init script
 ~/.dotfiles/scripts/init/init.sh
