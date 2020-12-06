@@ -1,5 +1,6 @@
 ncmpcpp_directory   = ~/.ncmpcpp
 lyrics_directory    = ~/.ncmpcpp/lyrics
+user_interface      = "alternative"
 
 mpd_music_dir       = "~/Music"  
 mpd_host            = "127.0.0.1"
