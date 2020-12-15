@@ -39,3 +39,6 @@ alias vi='vim'
 
 # Superuser alias workaround
 alias sudo='sudo '
+
+# Node, yarn & npm
+alias pscripts='jq .scripts package.json'
