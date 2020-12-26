@@ -6,6 +6,7 @@ PATH="$PATH:/home/kees/.yarn/bin"
 PATH="$PATH:/home/kees/Source/flutter/bin"
 PATH="$PATH:/home/kees/.cargo/bin"
 PATH="$PATH:/home/kees/.gem/ruby/2.7.0/bin"
+PATH="$PATH:/home/kees/go/bin"
 
 export PATH
 
