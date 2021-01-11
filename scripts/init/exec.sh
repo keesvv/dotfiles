@@ -19,3 +19,4 @@ run_once "sudo ckb-next-daemon"
 run_once ckb-next "-b"
 run_once mpd
 run_once mpd-mpris
+run_once openrgb "--server"
