@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 #
-# Script for controlling my Hue bulbs
+# Script for controlling my Hue lights
 #
 
 import os
@@ -12,18 +12,13 @@ from phue import Bridge
 focus_scene = 'eeuikaWaWMUVdw-'
 chill_scene = 'ExG65m1qcHIW6k-'
 dim_scene   = 'j1uBBjWRkozFJDa'
-bridge_ip   = '192.168.1.3'
+bridge_ip   = '192.168.1.4'
 room_name   = 'Gamekamer'
 ledstrip_id = 6
 
 # Insufficient arguments
 if len(sys.argv) < 2:
     sys.exit(1)
-
-if len(sys.argv) > 2 and \
-    sys.argv[2] == 'only_if_late' and \
-    datetime.datetime.now().hour < 22:
-        sys.exit(0)
 
 # Initialise bridge
 bridge = Bridge(bridge_ip)
