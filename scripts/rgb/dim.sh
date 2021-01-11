@@ -7,3 +7,4 @@ liquidctl --match "kraken" set ring color tai-chi $MAIN_COLOR --speed slowest &
 liquidctl --match "kraken" set logo color fixed 8c8c8c &
 
 python3 ~/.dotfiles/scripts/hue/main.py chill &
+python3 ~/.dotfiles/scripts/rgb/orgb.py dim &
