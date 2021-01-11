@@ -6,4 +6,4 @@ sudo liquidctl initialize all
 sudo liquidctl --match "smart" set fan2 speed $FAN_SPEED
 sudo liquidctl --match "smart" set fan3 speed $FAN_SPEED
 
-source ~/.dotfiles/scripts/rgb/on.sh
+sh ~/.dotfiles/scripts/rgb/on.sh
