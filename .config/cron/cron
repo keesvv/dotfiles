@@ -1,1 +1,3 @@
+# vi: set syntax=crontab:
+
 @reboot (sleep 15 && cd /home/kees/.containers && ./launch-bg.sh pc)
