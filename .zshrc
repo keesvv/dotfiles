@@ -2,6 +2,7 @@
 export EDITOR='vim'
 export SSH_KEY_PATH="~/.ssh/id_rsa"
 export ZSH_PLUGINS_ALIAS_TIPS_EXCLUDES="g"
+export GPG_TTY=$(tty)
 
 # local variables
 HISTFILE=~/.zsh_history
