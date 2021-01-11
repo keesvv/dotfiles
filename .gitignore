@@ -1,4 +1,4 @@
 .vim/plugged
 .vim/.netrwhist
 .config/ranger/plugins
-
+__pycache__
