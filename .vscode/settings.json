@@ -30,5 +30,6 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "tabnine.experimentalAutoImports": true
+    "tabnine.experimentalAutoImports": true,
+    "go.useLanguageServer": true
 }
