@@ -18,6 +18,10 @@ alt + Tab
 super + period
     rofimoji
 
+# Meme picker
+super + comma
+    sh ~/.dotfiles/scripts/meme.sh
+
 # Close window
 super + q
     bspc node -c
