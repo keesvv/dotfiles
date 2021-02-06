@@ -2,7 +2,7 @@
     "window.titleBarStyle": "custom",
     "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
     "workbench.iconTheme": "vscode-icons",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "editor.fontSize": 13,
     "git.autofetch": true,
     "explorer.confirmDelete": false,

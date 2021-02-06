@@ -1,0 +1,10 @@
+{
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Monokai",
+    "window.titleBarStyle": "custom",
+    "terminal.integrated.fontFamily": "UbuntuMono Nerd Font Mono",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "go.useLanguageServer": true,
+    "workbench.iconTheme": "vscode-icons"
+}
