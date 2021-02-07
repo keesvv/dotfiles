@@ -11,7 +11,6 @@ function run_once {
 killall -q sxhkd; sxhkd &
 killall -q dunst; dunst &
 killall -q picom; sleep 0.3s; picom &
-killall -q polybar; polybar mainbar-bspwm &
 
 run_once redshift
 run_once nextcloud
