@@ -6,10 +6,10 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'jiangmiao/auto-pairs'
-Plug 'airblade/vim-gitgutter'
+"Plug 'airblade/vim-gitgutter'
 Plug 'preservim/nerdtree'
 Plug 'scrooloose/nerdcommenter'
-"Plug 'morhetz/gruvbox'
+Plug 'morhetz/gruvbox'
 Plug 'junegunn/fzf.vim'
 Plug 'leafOfTree/vim-vue-plugin'
 Plug 'mattn/emmet-vim'
@@ -32,7 +32,7 @@ call plug#end()
 
 "Options & settings
 let g:airline_powerline_fonts = 1
-"let g:gruvbox_italic = 1
+let g:gruvbox_italic = 1
 let g:user_emmet_leader_key='<C-E>'
 let g:gitgutter_realtime = 0
 let g:gitgutter_eager = 0
@@ -62,7 +62,7 @@ syntax on
 
 "Custom color schemes
 highlight LineNr ctermfg=grey
-"colorscheme gruvbox
+colorscheme gruvbox
 
 "Mappings
 map <silent><S-Up> :m-2<CR>
