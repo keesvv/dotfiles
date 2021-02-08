@@ -1,6 +1,6 @@
 {
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Monokai",
+    "workbench.colorTheme": "Gruvbox Material Dark",
     "window.titleBarStyle": "custom",
     "terminal.integrated.fontFamily": "UbuntuMono Nerd Font Mono",
     "git.confirmSync": false,
@@ -9,5 +9,6 @@
     "workbench.iconTheme": "vscode-icons",
     "files.autoSave": "onFocusChange",
     "git.enableSmartCommit": true,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false
 }
