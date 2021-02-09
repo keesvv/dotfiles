@@ -10,5 +10,6 @@
     "files.autoSave": "onFocusChange",
     "git.enableSmartCommit": true,
     "explorer.confirmDragAndDrop": false,
-    "editor.fontSize": 12.5
+    "editor.fontSize": 12.5,
+    "explorer.confirmDelete": false
 }
