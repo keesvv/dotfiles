@@ -1,1 +1,9 @@
 source ~/.neomuttcreds
+
+set sort_aux = last-date-received
+set sort = reverse-threads
+
+set header_cache = ~/.cache/mutt
+set mail_check = 60
+
+unset record
