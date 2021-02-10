@@ -168,4 +168,4 @@ super + m
 
 # Download bookmarked music
 super + shift + m
-    $TERMINAL -e ~/.dotfiles/scripts/youtubedl/download.sh
+    $TERMINAL -e neomutt
