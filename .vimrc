@@ -19,6 +19,7 @@ Plug 'tpope/vim-dispatch'
 Plug 'dense-analysis/ale'
 Plug 'lervag/vimtex'
 "Plug 'hugolgst/vimsence'
+Plug 'jamessan/vim-gnupg', {'branch': 'main'}
 
 "COC plugins
 Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
