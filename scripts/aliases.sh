@@ -34,8 +34,9 @@ alias btconnect='bluetoothctl power on && sleep 1 && bluetoothctl connect 7C:38:
 alias bspe='vi ~/.dotfiles/.config/bspwm/bspwmrc'
 alias keyedit='vi ~/.dotfiles/.config/sxhkd/sxhkdrc'
 
-# Vim
+# Editors
 alias vi='vim'
+alias code='vscodium'
 
 # Superuser alias workaround
 alias sudo='sudo '
