@@ -1,5 +1,4 @@
 {
-    "window.zoomLevel": 0,
     "workbench.colorTheme": "Gruvbox Material Dark",
     "window.titleBarStyle": "custom",
     "terminal.integrated.fontFamily": "UbuntuMono Nerd Font Mono",
@@ -11,5 +10,14 @@
     "git.enableSmartCommit": true,
     "explorer.confirmDragAndDrop": false,
     "editor.fontSize": 12.5,
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "discord.lowerDetailsEditing": "{workspace}",
+    "discord.smallImage": "VSCodium"
 }
