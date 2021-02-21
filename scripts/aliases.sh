@@ -35,7 +35,7 @@ alias bspe='vi ~/.dotfiles/.config/bspwm/bspwmrc'
 alias keyedit='vi ~/.dotfiles/.config/sxhkd/sxhkdrc'
 
 # Editors
-alias vi='vim'
+alias m='micro'
 alias code='vscodium'
 
 # Superuser alias workaround
