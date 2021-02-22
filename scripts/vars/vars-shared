@@ -1,5 +1,5 @@
 #!/bin/sh
-export TERMINAL="micro"
+export TERMINAL="alacritty"
 export BROWSER="firefox"
 export KEYBOARD_DELAY=200
 export KEYBOARD_RATE=25
