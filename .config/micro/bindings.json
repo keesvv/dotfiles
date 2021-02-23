@@ -5,5 +5,5 @@
     "Ctrl-p": "command:fzf",
     "Ctrl-b": "command:tree",
     "Ctrl-Backslash": "command:vsplit",
-    "Ctrl-Shift-Backslash": "command:hsplit"
+    "Ctrl-k": "command:hsplit"
 }
