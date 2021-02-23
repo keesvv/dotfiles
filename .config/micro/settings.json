@@ -1,5 +1,6 @@
 {
     "colorscheme": "solarized",
+    "mkparents": true,
     "statusformatl": "$(filename) $(modified) $(status.paste)| $(opt:filetype) | $(opt:fileformat) | $(opt:encoding)",
     "statusformatr": "($(line),$(col))"
 }

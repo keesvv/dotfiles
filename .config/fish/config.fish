@@ -10,8 +10,5 @@ source ~/.dotfiles/.config/fish/path.fish
 source ~/.dotfiles/.config/fish/aliases.fish
 source ~/.dotfiles/.config/fish/binds.fish
 
-# bindings
-# bindkey -s "\C-r" "hh -- \C-j"     # bind hstr to Ctrl-r (for Vi mode check doc)
-
 # Print system info
-afetch
+# afetch
