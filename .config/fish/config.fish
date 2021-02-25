@@ -12,3 +12,6 @@ source ~/.dotfiles/.config/fish/binds.fish
 
 # Print system info
 # afetch
+
+# Starship
+starship init fish | source
