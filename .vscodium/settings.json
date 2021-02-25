@@ -19,5 +19,6 @@
     },
     "editor.formatOnSave": true,
     "discord.lowerDetailsEditing": "{workspace}",
-    "discord.smallImage": "VSCodium"
+    "discord.smallImage": "VSCodium",
+    "editor.minimap.enabled": false
 }
