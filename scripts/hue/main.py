@@ -12,7 +12,7 @@ from phue import Bridge
 focus_scene = 'eeuikaWaWMUVdw-'
 chill_scene = 'ExG65m1qcHIW6k-'
 dim_scene   = 'j1uBBjWRkozFJDa'
-bridge_ip   = '192.168.1.4'
+bridge_ip   = '192.168.1.21'
 room_name   = 'Gamekamer'
 ledstrip_id = 6
 bulb_id     = 3
