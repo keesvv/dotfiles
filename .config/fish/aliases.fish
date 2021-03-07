@@ -23,8 +23,9 @@ alias view="micro -readonly on"
 # Trash
 alias tgrep='trash-list | grep'
 
-# Verbose copying
+# Verbose copying & moving
 alias cp='cp -iv'
+alias mv='mv -iv'
 
 # Open file
 alias open='xdg-open'
