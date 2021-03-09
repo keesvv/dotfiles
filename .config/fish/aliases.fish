@@ -46,6 +46,9 @@ alias hh='hstr'
 alias pullncp='rclone sync -i -v nextcloud: ~/Documents/Nextcloud'
 alias pullnct='rclone sync -i -v nextcloudtc:Tribecamp ~/Documents/Tribecamp'
 
+# Portage
+alias cduse='cd /etc/portage/package.use'
+
 # Superuser alias workaround
 alias sudo='sudo '
 
