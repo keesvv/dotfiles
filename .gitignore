@@ -2,3 +2,4 @@
 .vim/.netrwhist
 .config/ranger/plugins
 __pycache__
+*.log
