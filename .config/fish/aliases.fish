@@ -42,6 +42,10 @@ alias m='micro'
 alias code='vscodium'
 alias hh='hstr'
 
+# rclone
+alias pullncp='rclone sync -i -v nextcloud: ~/Documents/Nextcloud'
+alias pullnct='rclone sync -i -v nextcloudtc:Tribecamp ~/Documents/Tribecamp'
+
 # Superuser alias workaround
 alias sudo='sudo '
 
