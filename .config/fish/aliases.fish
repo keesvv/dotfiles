@@ -48,9 +48,10 @@ alias pullnct='rclone sync -i -v nextcloudtc:Tribecamp ~/Documents/Tribecamp'
 
 # Portage
 alias cduse='cd /etc/portage/package.use'
+alias efullupdate='sudo emerge --ask --verbose --update --deep --changed-use @world'
 
 # Superuser alias workaround
 alias sudo='sudo '
 
 # Node, yarn & npm
-alias pscripts='jq .scripts package.json'
+alias pscripts='jq .scripts package.json | bat -l json'
