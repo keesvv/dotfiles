@@ -1,9 +1,6 @@
 #!/bin/sh
 source ~/.dotfiles/scripts/vars/vars.sh
 
-# Lock the screen
-#~/.dotfiles/scripts/lock.sh
-
 # Source init script
 ~/.dotfiles/scripts/init/init.sh
 
@@ -21,6 +18,3 @@ bspc config gapless_monocle true
 bspc config borderless_monocle true
 bspc config window_gap 6
 bspc config automatic_scheme alternate
-
-## Quickfix for Java applications not rendering properly
-wmname LG3D

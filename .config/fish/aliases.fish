@@ -18,7 +18,8 @@ alias ls='ls --color=auto --group-directories-first'
 alias la='ls -A'
 alias l='ls -la'
 alias cdd='cd ..'
-alias view="micro -readonly on"
+alias view='micro -readonly on'
+alias tree='tre'
 
 # Trash
 alias tgrep='trash-list | grep'
