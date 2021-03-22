@@ -76,11 +76,11 @@ XF86AudioPlay
 
 # Lock screen
 super + l
-    ~/.dotfiles/scripts/lock.sh
+    slock
 
 # Show task manager
 ctrl + Escape
-    $TERMINAL -e ytop -p
+    $TERMINAL -e btm
 
 # Fullscreen
 super + f
