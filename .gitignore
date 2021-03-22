@@ -3,3 +3,4 @@
 .config/ranger/plugins
 __pycache__
 *.log
+.ncmpcpp/lyrics
