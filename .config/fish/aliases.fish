@@ -39,7 +39,8 @@ alias bspe='$EDITOR ~/.dotfiles/.config/bspwm/bspwmrc'
 alias keyedit='$EDITOR ~/.dotfiles/.config/sxhkd/sxhkdrc'
 
 # Editors
-alias m='micro'
+#alias m='micro'
+alias vi='nvim'
 alias code='vscodium'
 alias hh='hstr'
 

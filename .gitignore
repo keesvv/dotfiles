@@ -1,6 +1,8 @@
 .vim/plugged
 .vim/.netrwhist
 .config/ranger/plugins
+.config/nvim/autoload
+.config/nvim/.netrwhist
 __pycache__
 *.log
 .ncmpcpp/lyrics
