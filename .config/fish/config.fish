@@ -1,5 +1,5 @@
 # global variables
-export EDITOR='micro'
+export EDITOR='nvim'
 export SSH_KEY_PATH="~/.ssh/id_rsa"
 export GPG_TTY=(tty)
 export FZF_DEFAULT_COMMAND="fd -t file"

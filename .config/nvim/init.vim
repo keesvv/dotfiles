@@ -15,6 +15,7 @@ Plug 'tpope/vim-dispatch'
 "COC plugins
 Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 Plug 'josa42/coc-go', {'do': 'yarn install --frozen-lockfile'}
+Plug 'pappasam/coc-jedi', {'do': 'yarn install --frozen-lockfile && yarn build'}
 "Plug 'neoclide/coc-vetur', {'do': 'yarn install --frozen-lockfile'}
 "Plug 'neoclide/coc-eslint', {'do': 'yarn install --frozen-lockfile'}
 
