@@ -19,3 +19,8 @@ source ~/.dotfiles/.config/fish/binds.fish
 
 # Starship
 starship init fish | source
+
+if status is-login
+    source ~/.dotfiles/.config/fish/login.fish
+end
+
