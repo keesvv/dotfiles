@@ -54,8 +54,9 @@ filetype plugin on
 syntax on
 
 "Custom color schemes
-highlight LineNr ctermfg=grey
 colorscheme gruvbox
+highlight LineNr ctermfg=grey
+highlight Normal ctermbg=NONE
 
 "Mappings
 map <silent><S-Up> :m-2<CR>
