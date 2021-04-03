@@ -5,4 +5,4 @@ liquidctl --match "kraken" set ring color fixed 000000 &
 liquidctl --match "kraken" set logo color fixed 000000 &
 
 python3 ~/.dotfiles/scripts/hue/main.py off &
-python3 ~/.dotfiles/scripts/rgb/orgb.py off &
+#python3 ~/.dotfiles/scripts/rgb/orgb.py off &
