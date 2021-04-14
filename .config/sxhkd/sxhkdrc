@@ -4,7 +4,7 @@ super + Home
 
 # Run an application
 super + a
-    dmenu_run
+    rofi -show drun
 
 # Open Terminal
 super + Return
