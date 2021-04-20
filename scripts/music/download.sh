@@ -1,11 +1,9 @@
-cd ~/.dotfiles/scripts/youtubedl
-node extractBookmarks.js
-
+#!/usr/bin/env bash
 youtube-dl \
     --no-playlist \
     --ignore-errors \
-    --batch-file '/tmp/youtubedl-batch' \
+    --batch-file "$1" \
     --no-call-home \
     --extract-audio \
     --audio-format mp3 \
-    --output 'output/%(title)s.%(ext)s'
+    --output "~/Downloads/youtube-dl/%(title)s.%(ext)s"
