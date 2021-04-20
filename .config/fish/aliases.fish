@@ -58,5 +58,8 @@ alias efullupdate='sudo emerge --ask --verbose --update --deep --changed-use @wo
 # Superuser alias workaround
 alias sudo='sudo '
 
+# youtube-dl
+alias ytdl='sh ~/.dotfiles/scripts/music/interactive.sh'
+
 # Node, yarn & npm
 alias pscripts='jq .scripts package.json | bat -l json'

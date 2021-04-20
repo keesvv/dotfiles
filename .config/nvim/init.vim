@@ -10,7 +10,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-dispatch'
-"Plug 'hugolgst/vimsence'
+Plug 'vim-airline/vim-airline'
 
 "COC plugins
 Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
@@ -44,7 +44,7 @@ set shiftwidth=4   "Shift width
 set tabstop=4      "Tab width
 set ai             "Auto indent
 set number         "Line numbers
-"set noshowmode     "No default statusline
+set noshowmode     "No default statusline
 set nowrap         "No line wrapping
 set bg=dark        "Dark theme
 set updatetime=250
