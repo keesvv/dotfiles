@@ -1,9 +1,7 @@
 # dotfiles
 💻 My personal dotfiles.
 
-![Screenshot](./screenshot.png)
-
-> Looks great, doesn't it?
+> Updated screenshot coming soon.
 
 ## Installation
 ```
