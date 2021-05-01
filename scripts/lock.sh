@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-betterlockscreen -t "Kees van Voorthuizen" -l
+echo "rgb ed0000ff" > /tmp/ckbpipe000
+slock
+echo "rgb 00000000" > /tmp/ckbpipe000

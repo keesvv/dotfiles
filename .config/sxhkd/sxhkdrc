@@ -76,7 +76,7 @@ XF86AudioPlay
 
 # Lock screen
 super + l
-    slock
+    sh ~/.dotfiles/scripts/lock.sh
 
 # Show task manager
 ctrl + Escape
@@ -169,3 +169,7 @@ super + m
 # Download bookmarked music
 super + shift + m
     $TERMINAL -e neomutt
+
+# Pick color
+super + p
+    sh ~/.dotfiles/scripts/color_picker.sh

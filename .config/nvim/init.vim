@@ -73,6 +73,7 @@ nnoremap <C-p> :GFiles<CR>
 nmap <leader>gd <Plug>(coc-definition)
 nmap <leader>gr <Plug>(coc-references)
 nmap <leader>gs :G<CR>
+nmap <leader>gc :G commit<CR>
 
 "Window management
 nmap <leader>q <C-W>q

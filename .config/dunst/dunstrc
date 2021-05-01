@@ -366,7 +366,7 @@
 
 [hue]
     summary = "*"
-    script = ~/.dotfiles/scripts/autohue/notification.sh
+    script = ~/.dotfiles/scripts/notification.sh
 
 #[script-test]
 #    summary = "*script*"

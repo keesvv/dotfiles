@@ -15,7 +15,7 @@
         "editor.defaultFormatter": "yzhang.markdown-all-in-one"
     },
     "[vue]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "octref.vetur"
     },
     "editor.formatOnSave": true,
     "discord.lowerDetailsEditing": "{workspace}",

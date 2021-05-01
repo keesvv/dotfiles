@@ -14,9 +14,10 @@ alias glo="git log --date=short --color --graph --pretty=format:'%Cgreen[%Creset
 alias glc='git log --oneline | wc -l'
 
 # File listing
-alias ls='ls --color=auto --group-directories-first'
+alias ls='lsd'
 alias la='ls -A'
-alias l='ls -la'
+alias l='ls -lA'
+alias lsdd='l --date=date'
 alias cdd='cd ..'
 alias view='micro -readonly on'
 alias tree='tre'
@@ -48,7 +49,8 @@ alias code='vscodium'
 alias hh='hstr'
 
 # rclone
-alias pullncp='rclone sync -i -v nextcloud: ~/Documents/Nextcloud'
+alias pullncp='rclone sync -v nextcloud: ~/Documents/Nextcloud'
+alias pushncp='rclone sync -v ~/Documents/Nextcloud nextcloud:'
 alias pullnct='rclone sync -i -v nextcloudtc:Tribecamp ~/Documents/Tribecamp'
 
 # Portage
@@ -56,7 +58,7 @@ alias cduse='cd /etc/portage/package.use'
 alias efullupdate='sudo emerge --ask --verbose --update --deep --changed-use @world'
 
 # Superuser alias workaround
-alias sudo='sudo '
+alias sudo='doas'
 
 # youtube-dl
 alias ytdl='sh ~/.dotfiles/scripts/music/interactive.sh'
