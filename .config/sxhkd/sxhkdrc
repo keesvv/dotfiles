@@ -20,7 +20,7 @@ super + period
 
 # Meme picker
 super + comma
-    sh ~/.dotfiles/scripts/meme.sh
+    sh ~/.dotfiles/scripts/transtr.sh
 
 # Close window
 super + q
@@ -120,7 +120,7 @@ super + End
 
 # Open file manager
 super + z
-    $TERMINAL -e ranger
+    thunar
 
 # Switch keyboard layout
 super + space
