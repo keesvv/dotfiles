@@ -17,13 +17,9 @@ source ~/.dotfiles/.config/fish/path.fish
 source ~/.dotfiles/.config/fish/aliases.fish
 source ~/.dotfiles/.config/fish/binds.fish
 
-# Print system info
-# afetch
-
 # Starship
 starship init fish | source
 
 if status is-login
     source ~/.dotfiles/.config/fish/login.fish
 end
-

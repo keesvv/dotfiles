@@ -57,9 +57,6 @@ alias pullnct='rclone sync -i -v nextcloudtc:Tribecamp ~/Documents/Tribecamp'
 alias cduse='cd /etc/portage/package.use'
 alias efullupdate='sudo emerge --ask --verbose --update --deep --changed-use @world'
 
-# Superuser alias workaround
-alias sudo='doas'
-
 # youtube-dl
 alias ytdl='sh ~/.dotfiles/scripts/music/interactive.sh'
 
