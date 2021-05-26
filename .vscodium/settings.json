@@ -1,24 +1,25 @@
 {
-    "workbench.colorTheme": "Gruvbox Material Dark",
-    "window.titleBarStyle": "custom",
-    "terminal.integrated.fontFamily": "UbuntuMono Nerd Font Mono",
-    "git.confirmSync": false,
-    "git.autofetch": true,
-    "go.useLanguageServer": true,
-    "workbench.iconTheme": "vscode-icons",
-    "files.autoSave": "onFocusChange",
-    "git.enableSmartCommit": true,
-    "explorer.confirmDragAndDrop": false,
-    "editor.fontSize": 12.5,
-    "explorer.confirmDelete": false,
-    "[markdown]": {
-        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-    },
-    "[vue]": {
-        "editor.defaultFormatter": "octref.vetur"
-    },
-    "editor.formatOnSave": true,
-    "discord.lowerDetailsEditing": "{workspace}",
-    "discord.smallImage": "VSCodium",
-    "editor.minimap.enabled": false
+  "workbench.colorTheme": "Gruvbox Material Dark",
+  "window.titleBarStyle": "custom",
+  "terminal.integrated.fontFamily": "UbuntuMono Nerd Font Mono",
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "go.useLanguageServer": true,
+  "workbench.iconTheme": "vscode-icons",
+  "files.autoSave": "onFocusChange",
+  "git.enableSmartCommit": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.fontSize": 12.5,
+  "explorer.confirmDelete": false,
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "editor.formatOnSave": true,
+  "discord.lowerDetailsEditing": "{workspace}",
+  "discord.smallImage": "VSCodium",
+  "editor.minimap.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

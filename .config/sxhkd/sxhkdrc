@@ -18,8 +18,12 @@ alt + Tab
 super + period
     rofimoji
 
-# Meme picker
+# Transtr (quick)
 super + comma
+    sh ~/.dotfiles/scripts/transtr.sh short
+
+# Transtr
+super + shift + comma
     sh ~/.dotfiles/scripts/transtr.sh
 
 # Close window
