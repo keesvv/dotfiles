@@ -15,7 +15,7 @@ alias glc='git log --oneline | wc -l'
 
 # File listing
 alias ls='lsd'
-alias la='ls -A'
+alias ll='ls -1'
 alias l='ls -lA'
 alias lsdd='l --date=date'
 alias cdd='cd ..'
@@ -49,9 +49,10 @@ alias code='vscodium'
 alias hh='hstr'
 
 # rclone
-alias pullncp='rclone sync -v nextcloud: ~/Documents/Nextcloud'
-alias pushncp='rclone sync -v ~/Documents/Nextcloud nextcloud:'
+alias pullncp='rclone sync -i -v nextcloud: ~/Documents/Nextcloud'
+alias pushncp='rclone sync -i -v ~/Documents/Nextcloud nextcloud:'
 alias pullnct='rclone sync -i -v nextcloudtc:Tribecamp ~/Documents/Tribecamp'
+alias pushnct='rclone sync -i -v ~/Documents/Tribecamp nextcloudtc:Tribecamp'
 
 # Portage
 alias cduse='cd /etc/portage/package.use'
@@ -62,3 +63,7 @@ alias ytdl='sh ~/.dotfiles/scripts/music/interactive.sh'
 
 # Node, yarn & npm
 alias pscripts='jq .scripts package.json | bat -l json'
+
+# Other
+alias weer='curl wttr.in'
+alias todo='$EDITOR ~/Notes/todo.md'

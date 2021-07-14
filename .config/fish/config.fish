@@ -20,6 +20,9 @@ source ~/.dotfiles/.config/fish/binds.fish
 # Starship
 starship init fish | source
 
+# Print system info
+#afetch
+
 if status is-login
     source ~/.dotfiles/.config/fish/login.fish
 end

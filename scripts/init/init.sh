@@ -1,10 +1,10 @@
 #!/bin/sh
 
 # Set wallpaper
-feh --bg-scale ~/.dotfiles/.wallpaper.jpg
+~/.fehbg
 
 # Set bar
-~/.config/polybar/launch.sh --docky
+~/.config/polybar/start.sh
 
 source ~/.dotfiles/scripts/init/xorg.sh
 source ~/.dotfiles/scripts/init/exec.sh

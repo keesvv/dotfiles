@@ -18,6 +18,9 @@ alt + Tab
 super + period
     rofimoji
 
+super + slash 
+    sh ~/.dotfiles/scripts/bitwarden.sh
+
 # Transtr (quick)
 super + comma
     sh ~/.dotfiles/scripts/transtr.sh short
@@ -29,6 +32,18 @@ super + shift + comma
 # Close window
 super + q
     bspc node -c
+
+# Kill window
+super + k
+    bspc node -k
+
+# Reload polybar config
+super + u
+    killall polybar && sleep 2s; ~/.config/polybar/start.sh
+
+# Resize (WIP)
+super + alt + {Left,Down,Up,Right}
+    sh ~/.dotfiles/scripts/resize.sh {west,south,north,east}
 
 # Expand window
 super + shift + {h,j,k,l}
@@ -60,23 +75,23 @@ XF86AudioMute
 
 # Next track
 XF86AudioNext
-    playerctl next
+    playerctl -p mpd next
 
 # Previous track
 XF86AudioPrev
-    playerctl previous
+    playerctl -p mpd previous
 
 # Skip 5 seconds
 ctrl + XF86AudioNext
-    playerctl position 5+
+    playerctl -p mpd position 5+
 
 # Prev 5 seconds
 ctrl + XF86AudioPrev
-    playerctl position 5-
+    playerctl -p mpd position 5-
 
 # Play/pause
 XF86AudioPlay
-    playerctl play-pause
+    playerctl -p mpd play-pause
 
 # Lock screen
 super + l
@@ -172,7 +187,7 @@ super + m
 
 # Download bookmarked music
 super + shift + m
-    $TERMINAL -e neomutt
+    $TERMINAL -e pulsemixer
 
 # Pick color
 super + p

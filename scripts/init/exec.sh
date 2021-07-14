@@ -12,8 +12,13 @@ killall -q sxhkd; sxhkd &
 killall -q dunst; dunst &
 killall -q picom; sleep 0.3s; picom &
 
+if [ -z $(pgrep -x xob) ]; then
+    pulse-xob | xob &
+fi
+
 run_once redshift
+run_once mpd-mpris
 run_once nextcloud
-#run_once "sudo ckb-next-daemon"
+run_once "sudo ckb-next-daemon"
 run_once ckb-next "-b"
 run_once openrgb "--server"
