@@ -1,6 +1,6 @@
 * {
-    font-family: Hack;
-    font-size: 12px;
+  font-family: Hack;
+  font-size: 12px;
 }
 
 #identity-box.extensionPage #identity-icon-labels,
@@ -10,6 +10,33 @@
 
 #tracking-protection-icon-container,
 #identity-box.extensionPage {
-    border-color: #5e5e5e !important;
-    border-image: none !important;
+  border-color: #5e5e5e !important;
+  border-image: none !important;
+}
+
+#identity-icon-box.identity-box-button {
+  background-color: none !important;
+}
+
+#tabbrowser-tabs {
+  /* --tab-line-color: #424647 !important; */
+  --tab-line-color: none !important;
+}
+
+.titlebar-buttonbox-container {
+  display: none !important;
+}
+
+.tabbrowser-tab[label^="New Tab"] .tab-icon-image {
+  display: none !important;
+}
+
+/*
+.tabbrowser-tab:not([pinned]) {
+  transition: none !important;
+}
+*/
+
+#identity-box[pageproxystate="valid"].notSecureText > .identity-box-button, #identity-box[pageproxystate="valid"].chromeUI > .identity-box-button, #identity-box[pageproxystate="valid"].extensionPage > .identity-box-button, #urlbar-label-box {
+  background-color: none !important;
 }
