@@ -1,21 +1,21 @@
 #!/usr/bin/env bash
+source ./vars.sh
+
 HOSTNAME=$(hostname)
-DEST="file:///mnt/backup/$HOSTNAME"
+DEST="/mnt/backup/$HOSTNAME"
 
-read -p "Password: " PASSPHRASE
-export PASSPHRASE=$PASSPHRASE
+ecryptfs-mount-private
 
-duplicity \
+rsync $(RSYNC_ARGS) \
     --exclude "**/node_modules" \
     --exclude "**/dynmap" \
-    --include "/home/kees/Containers" \
-    --include "/home/kees/Documents" \
-    --include "/home/kees/Music" \
-    --include "/home/kees/Projects" \
+    --include "/home/kees/Private" \
+    --include "/mnt/shared" \
+    --include "/mnt/hdd/Archive" \
+    --include "/mnt/hdd/Plex" \
     --include "/mnt/hdd/Pictures" \
     --include "/mnt/hdd/Videos" \
-    --include "/mnt/hdd/Nextcloud" \
-    --include "/mnt/hdd/Minecraft Servers" \
+    --include "/usr/share/fonts" \
     --include "/boot" \
     --include "/etc" \
     --exclude "**" \

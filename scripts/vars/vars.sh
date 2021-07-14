@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 cd ~/.dotfiles/scripts/vars
 
-if [ $(hostname) = 'pc' ]; then
+if [ $(cat /etc/hostname) = 'pc' ]; then
     source ./vars-desktop
 else
     source ./vars-laptop

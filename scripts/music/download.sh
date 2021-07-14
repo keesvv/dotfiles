@@ -6,4 +6,4 @@ youtube-dl \
     --no-call-home \
     --extract-audio \
     --audio-format mp3 \
-    --output "~/Downloads/youtube-dl/%(title)s.%(ext)s"
+    --output "~/Music/Downloads/%(title)s.%(ext)s"
