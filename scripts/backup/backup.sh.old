@@ -12,6 +12,14 @@ ecryptfs-mount-private
     # --include "/mnt/hdd/Videos" \
 
 rsync "${RSYNC_ARGS[@]}" \
-    --include-from=include.txt \
+    --exclude="**/node_modules" \
+    --exclude="**/dynmap" \
+    --include="/home/kees/Private" \
+    --include="/mnt/shared" \
+    --include="/usr/share/fonts" \
+    --include="/boot" \
+    --include="/etc" \
+    --exclude="**" \
     --progress \
-    / $DEST
+    --dry-run \
+    / "$DEST"

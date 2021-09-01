@@ -20,11 +20,18 @@
   "editor.formatOnSave": true,
   "discord.lowerDetailsEditing": "{workspace}",
   "discord.smallImage": "VSCodium",
-  "editor.minimap.enabled": false,
   "terminal.integrated.tabs.enabled": true,
   "security.workspace.trust.startupPrompt": "never",
   "security.workspace.trust.untrustedFiles": "open",
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.fontFamily": "'SF Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-  "security.workspace.trust.enabled": false
+  "security.workspace.trust.enabled": false,
+  "editor.codeActionsOnSave": {},
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSaveDelay": 100,
+  "editor.tabSize": 2,
+  "vetur.validation.interpolation": false,
+  "editor.minimap.enabled": false
 }

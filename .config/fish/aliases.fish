@@ -53,6 +53,8 @@ alias pullncp='rclone sync -i -v nextcloud: ~/Documents/Nextcloud'
 alias pushncp='rclone sync -i -v ~/Documents/Nextcloud nextcloud:'
 alias pullnct='rclone sync -i -v nextcloudtc:Tribecamp ~/Documents/Tribecamp'
 alias pushnct='rclone sync -i -v ~/Documents/Tribecamp nextcloudtc:Tribecamp'
+alias pulltcdrive='rclone sync -i -v tcdrive: ~/Documents/TribecampDrive'
+alias pushtcdrive='rclone sync -i -v ~/Documents/TribecampDrive tcdrive:'
 
 # Portage
 alias cduse='cd /etc/portage/package.use'

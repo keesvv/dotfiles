@@ -1,6 +1,6 @@
 # Reload config
 super + Home
-    sh ~/.dotfiles/.config/bspwm/bspwmrc
+    sh ~/.dotfiles/scripts/init/init.sh
 
 # Run an application
 super + a
@@ -63,11 +63,11 @@ ctrl + alt + Delete
 
 # Raise volume
 XF86AudioRaiseVolume
-    amixer -q set Master 2%+ unmute
+    pamixer -i 2
 
 # Lower volume
 XF86AudioLowerVolume
-    amixer -q set Master 2%- unmute
+    pamixer -d 2
 
 # Mute audio
 XF86AudioMute
@@ -135,7 +135,7 @@ XF86MonBrightnessDown
 
 # End session
 super + End
-    sudo killall Xorg
+    killall Xorg
 
 # Open file manager
 super + z

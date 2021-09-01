@@ -5,5 +5,7 @@ set PATH "$PATH:/home/kees/.yarn/bin"
 set PATH "$PATH:/home/kees/Source/flutter/bin"
 set PATH "$PATH:/home/kees/.gem/ruby/2.7.0/bin"
 set PATH "$PATH:$GOPATH/bin"
+set PATH "$PATH:/home/kees/.local/share/gem/ruby/3.0.0/bin"
+set PATH "$PATH:/home/kees/Source/Heimdall/bin"
 
 export PATH
