@@ -1,2 +1,3 @@
-#!/usr/bin/env bash
-~/.config/polybar/launch.sh --docky
+#!/bin/sh
+cd ~/.dotfiles/.config/polybar
+polybar -c bar.ini -l warning keesvv
