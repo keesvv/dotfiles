@@ -103,7 +103,7 @@ ctrl + Escape
 
 # Fullscreen
 super + f
-    bspc node -t \~fullscreen
+    bspc desktop -l next
 
 # swap the current node and the biggest node
 super + g
