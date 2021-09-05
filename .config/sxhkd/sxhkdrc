@@ -139,7 +139,7 @@ super + End
 
 # Open file manager
 super + z
-    thunar
+    $TERMINAL -e ranger
 
 # Switch keyboard layout
 super + space

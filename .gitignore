@@ -6,6 +6,7 @@
 __pycache__
 *.log
 .ncmpcpp/lyrics
+scripts/vars/vars-secret
 
 # TEMPORARY
 .config/ckb-next
