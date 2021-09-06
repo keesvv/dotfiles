@@ -4,7 +4,7 @@ call plug#begin(stdpath('data') . '/plugged')
 "Vim plugins
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jiangmiao/auto-pairs'
-Plug 'preservim/nerdtree'
+Plug 'itchyny/lightline.vim'
 
 "COC plugins
 Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
@@ -26,6 +26,7 @@ set tabstop=4      "Tab width
 set ai             "Auto indent
 set number         "Line numbers
 set nowrap         "No line wrapping
+set noshowmode     "No default statusline
 
 "Syntax highlighting
 filetype plugin on
@@ -34,11 +35,10 @@ syntax on
 "Custom color schemes
 highlight LineNr ctermfg=grey
 highlight Normal ctermbg=NONE
-highlight StatusLine ctermbg=white ctermfg=black
+"highlight StatusLine ctermbg=white ctermfg=black
+highlight Pmenu ctermbg=darkgray ctermfg=white
 
 "Mappings
-map <silent><C-B> :NERDTreeToggle<CR>
-
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
