@@ -16,7 +16,7 @@ if [ -z $(pgrep -x xob) ]; then
     pulse-xob | xob &
 fi
 
-run_once redshift
+run_once redshift "-l manual"
 run_once mpd-mpris
 run_once nextcloud
 run_once "sudo ckb-next-daemon"
