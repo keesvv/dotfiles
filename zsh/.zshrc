@@ -27,6 +27,7 @@ alias vi='vim'
 alias sudo='doas'
 alias reload='source ~/.zshrc'
 alias tree='tree -C'
+alias dots='cd ~/Source/dotfiles'
 
 ## Git
 alias gs='git status'
