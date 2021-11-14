@@ -1,0 +1,5 @@
+super + Return
+    st
+
+super + a
+    rofi -show drun
