@@ -1,0 +1,6 @@
+// vim: ft=css
+
+configuration {
+    modi: "drun";
+    theme: "~/.config/rofi/theme.rasi";
+}

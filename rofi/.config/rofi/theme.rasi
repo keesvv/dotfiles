@@ -1,0 +1,15 @@
+// vim: ft=css
+
+* {
+    spacing: 5;
+    background: rgb(30, 30, 30);
+    foreground: rgb(220, 220, 220);
+    background-color: @background;
+    text-color: @foreground;
+}
+
+#window {
+    font: "Hack 10";
+    background-color: @background;
+    padding: 20;
+}

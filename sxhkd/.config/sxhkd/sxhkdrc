@@ -2,4 +2,4 @@ super + Return
     st
 
 super + a
-    rofi -show drun
+    rofi -show drun -display-drun "run:"
