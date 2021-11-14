@@ -4,10 +4,8 @@
 > Updated screenshot coming soon.
 
 ## Installation
-```
-curl -sSL https://raw.githubusercontent.com/keesvv/dotfiles/master/install.sh | bash
-```
+My dotfiles are managed through GNU Stow. Use `./install.sh <pkgs...>`
+to install some (or all) of them.
 
 ## License
-Idk just do whatever you want with it.
-
+Public Domain
