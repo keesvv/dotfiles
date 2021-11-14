@@ -1,6 +1,0 @@
-configuration {
-	modi: "window,ssh,run,drun";
-	width: 30;
-	font: "hack 10";
-	theme: "/usr/share/rofi/themes/gruvbox-dark.rasi";
-}

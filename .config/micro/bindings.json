@@ -1,9 +1,0 @@
-{
-    "Alt-/": "lua:comment.comment",
-    "CtrlUnderscore": "lua:comment.comment",
-    "F6": "command-edit:gorename ",
-    "Ctrl-p": "command:fzf",
-    "Ctrl-b": "command:tree",
-    "Ctrl-Backslash": "command:vsplit",
-    "Ctrl-k": "command:hsplit"
-}

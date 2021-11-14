@@ -1,8 +1,0 @@
-#!/bin/sh
-source ./vars-shared
-
-export MONITOR="HDMI-0"
-export MOUSE_DEVID=8
-export MOUSE_ACCEL=-0.90
-export TERMINAL="kitty"
-export CPUTEMP_SENSOR="k10temp-pci-00c3"

@@ -1,3 +1,0 @@
-# vi: set syntax=crontab:
-
-0 22 * * * sh ~/.dotfiles/scripts/rgb/dim.sh
