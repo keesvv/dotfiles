@@ -1,2 +1,2 @@
 #!/bin/sh
-stow -t ~ -S $1
+stow -t ~ $@
