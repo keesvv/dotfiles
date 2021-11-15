@@ -29,6 +29,11 @@ alias reload='source ~/.zshrc'
 alias tree='tree -C'
 alias dots='cd ~/Source/dotfiles'
 
+## XBPS
+alias xi='sudo xbps-install'
+alias xr='sudo xbps-remove'
+alias xq='xbps-query'
+
 ## Git
 alias gs='git status'
 alias gb='git branch'
