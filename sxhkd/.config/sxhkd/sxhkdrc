@@ -14,6 +14,10 @@ super + a
 super + b
     firefox
 
+# File manager
+super + z
+    st -e ranger
+
 # Toggle floating mode
 super + shift + f
     bspc node -t \~floating
