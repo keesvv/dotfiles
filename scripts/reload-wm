@@ -1,0 +1,4 @@
+#!/bin/sh
+/bin/kill -SIGUSR1 "$(pidof polybar)"
+/bin/kill -SIGUSR1 "$(pidof sxhkd)"
+. ~/.config/bspwm/bspwmrc
