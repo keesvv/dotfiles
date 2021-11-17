@@ -47,5 +47,4 @@ alias glo='git log --oneline'
 alias gco='git checkout'
 
 # Cosmetic
-pfetch
-printf "\n%s\n" "$(fortune -s wisdom)"
+printf "\n%s\n\n" "$(fortune -s wisdom)"
