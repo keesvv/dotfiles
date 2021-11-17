@@ -22,6 +22,7 @@ PS1=$'%{$fg[white]%}$(dirs) $ %{$reset_color%}'
 
 # Aliases
 alias ls='ls --color=auto'
+alias ll='ls -1'
 alias l='ls -lA'
 alias vi='vim'
 alias sudo='doas'

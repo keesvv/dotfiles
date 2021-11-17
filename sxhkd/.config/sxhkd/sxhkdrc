@@ -1,5 +1,28 @@
+# Reload
+super + Home
+    reload-wm
+
+# Terminal
 super + Return
     st
 
+# Launcher
 super + a
     rofi -show drun -display-drun "run:"
+
+# Browser
+super + b
+    firefox
+
+# Toggle floating mode
+super + shift + f
+    bspc node -t \~floating
+
+# Close window
+super + q
+    bspc node -c
+
+# Kill window
+super + k
+    bspc node -k
+
