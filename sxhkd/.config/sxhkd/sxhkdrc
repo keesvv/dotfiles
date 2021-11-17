@@ -18,6 +18,10 @@ super + b
 super + z
     st -e ranger
 
+# Music player
+super + m
+    st -e ncmpcpp
+
 # Toggle floating mode
 super + shift + f
     bspc node -t \~floating
