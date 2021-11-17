@@ -23,7 +23,7 @@ PS1=$'%{$fg[white]%}$(dirs) $ %{$reset_color%}'
 # Aliases
 alias ls='ls --color=auto'
 alias l='ls -lA'
-alias vi='vim'
+alias vi='nvim'
 alias sudo='doas'
 alias reload='source ~/.zshrc'
 alias tree='tree -C'
