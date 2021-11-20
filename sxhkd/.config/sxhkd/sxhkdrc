@@ -34,3 +34,10 @@ super + q
 super + k
     bspc node -k
 
+# Switch to desktop
+super + {1-9}
+   bspc desktop -f '^{1-9}'
+
+# Move window to desktop
+super + shift + {1-9}
+   bspc node -d '^{1-9}' -f
