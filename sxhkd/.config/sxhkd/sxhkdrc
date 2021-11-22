@@ -2,6 +2,10 @@
 super + Home
     reload-wm
 
+# Quit
+super + End
+    bspc quit
+
 # Terminal
 super + Return
     st
@@ -16,11 +20,19 @@ super + b
 
 # File manager
 super + z
-    st -e ranger
+    st -e lf
 
 # Music player
 super + m
     st -e ncmpcpp
+
+# Volume mixer
+super + shift + m
+    st -e pulsemixer
+
+# Screenshot
+Print
+    maim -f png -s | xclip -sel clipboard -t image/png
 
 # Toggle floating mode
 super + shift + f
