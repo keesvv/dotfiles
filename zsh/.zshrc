@@ -1,5 +1,5 @@
 # History
-HISTFILE=~/.histfile
+HISTFILE=~/.zhistory
 HISTSIZE=1000
 SAVEHIST=1000
 
@@ -8,6 +8,7 @@ bindkey -v
 bindkey '^[[H' beginning-of-line
 bindkey '^[[F' end-of-line
 bindkey '^[[3~' delete-char
+bindkey -s '^R' 'hh^M'
 
 # Completion
 zstyle :compinstall filename '~/.zshrc'
@@ -32,6 +33,7 @@ alias dots='cd ~/Source/dotfiles'
 
 ## XBPS
 alias xi='sudo xbps-install'
+alias xir='xi --repository'
 alias xr='sudo xbps-remove'
 alias xq='xbps-query'
 
