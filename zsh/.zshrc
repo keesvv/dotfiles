@@ -9,6 +9,7 @@ bindkey '^[[H' beginning-of-line
 bindkey '^[[F' end-of-line
 bindkey '^[[3~' delete-char
 bindkey -s '^R' 'hh^M'
+bindkey -s '^F' 'fzf^M'
 
 # Completion
 zstyle :compinstall filename '~/.zshrc'
