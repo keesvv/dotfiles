@@ -1,0 +1,13 @@
+# Options
+set autoquit on
+set ratios 1:2
+
+# Trash
+%mkdir -p ~/.trash
+cmd trash %mv $fx ~/.trash
+
+# Mappings
+map <delete> trash
+map D delete
+map <backspace2> set hidden!
+map <enter> open
