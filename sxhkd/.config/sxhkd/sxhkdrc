@@ -22,6 +22,10 @@ super + b
 super + z
     st -e lf
 
+# Process viewer
+ctrl + Escape
+    st -e htop
+
 # Music player
 super + m
     st -e ncmpcpp
@@ -32,7 +36,7 @@ super + shift + m
 
 # Screenshot
 Print
-    maim -f png -s | xclip -sel clipboard -t image/png
+    maim -f png -s -u | xclip -sel clipboard -t image/png
 
 # Toggle floating mode
 super + shift + f
@@ -45,6 +49,10 @@ super + q
 # Kill window
 super + k
     bspc node -k
+
+# Fullscreen
+super + f
+    bspc desktop -l next
 
 # Switch to desktop
 super + {1-9}
