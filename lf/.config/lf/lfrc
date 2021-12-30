@@ -11,3 +11,5 @@ map <delete> trash
 map D delete
 map <backspace2> set hidden!
 map <enter> open
+map <f-7> push :!mkdir<space>
+map <f-5> reload

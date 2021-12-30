@@ -20,10 +20,19 @@ zstyle ':completion:*' menu select
 # Prompt
 autoload -U colors && colors
 setopt PROMPT_SUBST
+
+function exit_code() {
+	local LAST_EXIT=$?
+	if [[ $LAST_EXIT -ne 0 ]]; then
+		echo $LAST_EXIT
+	fi
+}
+
+RPROMPT='$(exit_code)'
 PS1=$'%{$fg[white]%}$(dirs) $ %{$reset_color%}'
 
 # Aliases
-alias ls='ls --color=auto'
+alias ls='ls --color=auto --group-directories-first'
 alias ll='ls -1'
 alias l='ls -lA'
 alias vi='nvim'
@@ -31,12 +40,14 @@ alias sudo='doas'
 alias reload='source ~/.zshrc'
 alias tree='tree -C'
 alias dots='cd ~/Source/dotfiles'
+alias weer='curl -s wttr.in'
 
 ## XBPS
 alias xi='sudo xbps-install'
 alias xir='xi --repository'
 alias xr='sudo xbps-remove'
 alias xq='xbps-query'
+alias xqm='xq -m | less'
 
 ## Git
 alias gs='git status'
@@ -45,6 +56,7 @@ alias gc='git commit'
 alias gp='git push'
 alias ga='git add'
 alias gd='git diff'
+alias gf='git fetch -p'
 alias gl='git log'
 alias glo='git log --oneline'
 alias gco='git checkout'

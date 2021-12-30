@@ -8,6 +8,7 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/nvim-cmp'
+Plug 'editorconfig/editorconfig-vim'
 
 "End plugins
 call plug#end()
@@ -18,8 +19,9 @@ local lsp = require('lspconfig')
 local cmp = require('cmp')
 
 -- Language servers
-lsp.gopls.setup{}	-- Go
-lsp.ccls.setup{}	-- C/C++/Obj-C
+lsp.gopls.setup{}			-- Go
+lsp.ccls.setup{}			-- C/C++/Obj-C
+lsp.rust_analyzer.setup{}	-- Rust
 
 -- Completion
 cmp.setup({

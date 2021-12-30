@@ -22,6 +22,10 @@ super + b
 super + z
     st -e lf
 
+# Password manager
+super + p
+	rofi-pass
+
 # Process viewer
 ctrl + Escape
     st -e htop

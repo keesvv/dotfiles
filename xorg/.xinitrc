@@ -1,7 +1,14 @@
 #!/bin/sh
 
+# Monitor
+xrandr --output HDMI-0 --mode 2560x1080 --rate 144 &
+
 # Cursor
 xsetroot -cursor_name left_ptr
+
+# Keyboard & mouse
+xinput --set-prop 9 'libinput Accel Speed' -0.90
+xset r rate 200 25
 
 # Wallpaper
 . ~/.fehbg

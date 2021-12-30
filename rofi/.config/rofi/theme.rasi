@@ -13,3 +13,17 @@
     background-color: @background;
     padding: 20;
 }
+
+element {
+	padding: 1;
+}
+
+element-text {
+	background-color: inherit;
+	text-color: inherit;
+}
+
+element.selected.normal {
+    background-color: @foreground;
+	text-color: @background;
+}

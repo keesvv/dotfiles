@@ -2,5 +2,6 @@
 
 configuration {
     modi: "drun";
-    theme: "~/.config/rofi/theme.rasi";
 }
+
+@theme "~/.config/rofi/theme.rasi"
