@@ -1,6 +1,6 @@
 #!/bin/sh
+export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$(id -u)/bus"
 
-# Monitor
 xrandr --output HDMI-0 --mode 2560x1080 --rate 144 &
 
 # Cursor
@@ -12,14 +12,6 @@ xset r rate 200 25
 
 # Wallpaper
 . ~/.fehbg
-
-# XDG
-export XDG_RUNTIME_DIR="/tmp/xdg-$(id -u)"
-mkdir -p $XDG_RUNTIME_DIR
-
-# Pipewire
-pipewire &
-pipewire-pulse &
 
 # Desktop
 dunst &
