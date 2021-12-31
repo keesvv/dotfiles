@@ -6,9 +6,13 @@ super + Home
 super + End
     bspc quit
 
+# Reboot
+ctrl + alt + Delete
+    systemctl reboot
+
 # Terminal
 super + Return
-    st
+    st -e tmux
 
 # Launcher
 super + a
