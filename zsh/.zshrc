@@ -58,6 +58,8 @@ alias ga='git add'
 alias gd='git diff'
 alias gf='git fetch -p'
 alias gl='git log'
+alias gr='git restore'
+alias grs='git restore --staged'
 alias glo='git log --oneline'
 alias gco='git checkout'
 
