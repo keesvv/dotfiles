@@ -10,6 +10,10 @@ super + End
 ctrl + alt + Delete
     systemctl reboot
 
+# Suspend
+super + shift + s
+    systemctl suspend
+
 # Terminal
 super + Return
     st -e tmux
