@@ -36,11 +36,11 @@ alias ls='ls --color=auto --group-directories-first'
 alias ll='ls -1'
 alias l='ls -lA'
 alias vi='nvim'
-alias sudo='doas'
 alias reload='source ~/.zshrc'
 alias tree='tree -C'
 alias dots='cd ~/Source/dotfiles'
 alias weer='curl -s wttr.in'
+alias docker='sudo podman'
 
 ## XBPS
 alias xi='sudo xbps-install'
