@@ -4,7 +4,7 @@ set ratios 1:2
 
 # Trash
 %mkdir -p ~/.trash
-cmd trash %mv $fx ~/.trash
+cmd trash %mv "$fx" ~/.trash
 
 # Mappings
 map <delete> trash
