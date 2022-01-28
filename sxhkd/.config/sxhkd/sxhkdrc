@@ -28,7 +28,7 @@ super + b
 
 # File manager
 super + z
-    st -e lf
+    thunar
 
 # Password manager
 super + p

@@ -1,5 +1,6 @@
 #!/bin/sh
 export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$(id -u)/bus"
+systemctl --user import-environment
 
 xrandr --output HDMI-0 --mode 2560x1080 --rate 144 &
 

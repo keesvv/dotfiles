@@ -9,6 +9,7 @@ cmd trash %mv "$fx" ~/.trash
 # Mappings
 map <delete> trash
 map D delete
+map t cd ~/.trash
 map <backspace2> set hidden!
 map <enter> open
 map <f-7> push :!mkdir<space>
