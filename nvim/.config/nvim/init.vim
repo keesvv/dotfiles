@@ -1,7 +1,5 @@
-"Modules
+"Plugins
 lua require('plugins')
-lua require('lsp')
-lua require('complete')
 
 "Options & settings
 set hlsearch		"Higlight search
@@ -32,3 +30,9 @@ nnoremap <c-v> "+p
 nnoremap <leader>f <cmd>Telescope find_files<cr>
 nnoremap <leader>b <cmd>Telescope buffers<cr>
 nnoremap <leader>h <cmd>Telescope command_history<cr>
+
+"Disable arrow keys in normal mode
+nmap <left> <nop>
+nmap <right> <nop>
+nmap <up> <nop>
+nmap <down> <nop>
