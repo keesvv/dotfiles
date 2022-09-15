@@ -25,7 +25,11 @@ require('packer').startup(function(use)
 	use {
 		'nvim-telescope/telescope.nvim',
 		tag = '*',
-		requires = {'nvim-lua/plenary.nvim'}
+		requires = {
+			'nvim-lua/plenary.nvim',
+			'nvim-telescope/telescope-project.nvim'
+		},
+		config = function() require('tscope') end
 	}
 
 	-- themes

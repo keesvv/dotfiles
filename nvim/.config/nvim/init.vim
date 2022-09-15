@@ -30,6 +30,8 @@ nnoremap <c-v> "+p
 nnoremap <leader>f <cmd>Telescope find_files<cr>
 nnoremap <leader>b <cmd>Telescope buffers<cr>
 nnoremap <leader>h <cmd>Telescope command_history<cr>
+nnoremap <leader>p <cmd>Telescope project<cr>
+nnoremap <leader>c <cmd>Telescope<cr>
 
 "Disable arrow keys in normal mode
 nmap <left> <nop>
