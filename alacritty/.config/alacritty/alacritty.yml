@@ -5,3 +5,8 @@ font:
 
 shell:
   program: vi
+
+window:
+  dimensions:
+    columns: 100
+    lines: 45
